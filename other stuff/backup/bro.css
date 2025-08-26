@@ -1,0 +1,731 @@
+/* can you make the animations in this css consistent:  */
+/* ========== basic stuff ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-color);
+  line-height: 1.6;
+  padding: 2rem;
+  padding-top: 120px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-gradient);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+/* ========== layout ========== */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+/* ========== typing ========== */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+p {
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+a {
+  color: hsl(var(--hue), 70%, 65%);
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(calc(var(--hue) + 180), 100%, 70%);
+}
+::selection {
+  background-color: var(--selection-bg);
+  color: var(--selection-color);
+}
+/* ========== buttons ========== */
+.button {
+  background-color: var(--button-bg);
+  color: var(--button-color);
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+.button:hover {
+  background-color: var(--button-hover);
+}
+.social-links a {
+    margin: 0 10px;
+    font-size: 35px;
+    color: var(--social-icon);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .social-links a:hover {
+    color: var(--social-hover);
+  }
+/* ========== nav ========== */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--nav-bg);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+nav a {
+  font-weight: 600;
+  color: var(--nav-link);
+  
+  
+}
+/* ========== cards ========== */
+.card {
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+/* ========== feet ========== */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  border-top: 1px solid var(--footer-border);
+  margin-top: 3rem;
+  color: var(--footer-text);
+}
+/* ========== ugh why ========== */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .card {
+    padding: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  nav a {
+    margin: 0.5rem 0;
+  }
+  .container {
+    padding: 0.5rem;
+  }
+  
+}
+/* ========== images ========== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+/* ========== kewl stuff :D ========== */
+.typewriter-container {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid var(--typewriter-cursor);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: 
+    typing 3s steps(30, end) forwards,
+    blink 0.75s step-end 4;
+}
+
+.typewriter.animated {
+  white-space: normal;
+  border-right: none;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+  100% { border-color: var(--typewriter-cursor); }
+}
+
+/* ========== COLOURS :O ========== */
+:root {
+  /* dark theme */
+  --bg-gradient: radial-gradient(circle at center, #1a1a1a, #000);
+  --text-color: #ffffff;
+  --heading-color: #ffffff;
+  --link-color: hsl(var(--hue), 93%, 59%);
+  --link-hover: hsl(var(--hue), 100%, 53%);
+  --selection-bg:hsl(var(--hue), 86%, 36%);
+  --selection-color: #ffffff;
+  --button-bg:hsl(var(--hue), 86%, 36%);
+  --button-color: white;
+  --button-hover: hsl(var(--hue), 100%, 25%);
+  --social-icon: hsl(var(--hue), 93%, 59%);
+  --social-hover: #ffffff;
+  --nav-bg: #eee;
+  --nav-link: #000;
+  --card-bg: white;
+  --card-text: #1a1a1a;
+  --card-border: #ddd;
+  --footer-border: #444;
+  --footer-text: hsl(var(--hue), 70%, 65%);
+  --typewriter-cursor: hsl(var(--hue), 100%, 53%);
+  --menu-bg:#1a1a1a;
+  
+  --hue: 270;
+  --primary: hsl(var(--hue), 100%, 50%);
+  --secondary: hsl(calc(var(--hue) + 180), 100%, 50%);
+  --accent: hsl(calc(var(--hue) + 120), 100%, 50%);
+}
+
+/* light theme */
+[data-theme="light"] {
+  --bg-gradient: radial-gradient(circle at center, 	#e6e6e6, #ffffff);
+  --text-color: #333333;
+  --heading-color: #222222;
+  --link-color: hsl(var(--hue), 100%, 65%);
+  --link-hover: hsl(var(--hue), 100%, 56%);
+  --selection-bg: hsl(var(--hue), 100%, 65%);
+  --selection-color: #ffffff;
+  --button-bg: hsl(var(--hue), 100%, 65%);
+  --button-color: white;
+  --button-hover: hsl(var(--hue), 100%, 56%);
+  --social-icon: hsl(var(--hue), 100%, 65%);
+  --social-hover: hsl(var(--hue), 100%, 56%);
+  --nav-bg: #f0f0f0;
+  --nav-link: #333;
+  --card-bg: #ffffff;
+  --card-text: #333333;
+  --card-border: #e0e0e0;
+  --footer-border: #ccc;
+  --footer-text: #666;
+  --typewriter-cursor: hsl(var(--hue), 100%, 56%);
+  --menu-bg:#e6e6e6;
+}
+
+.social-links a {
+  color: hsl(var(--hue), 70%, 65%);
+}
+
+.social-links a:hover {
+  color: hsl(calc(var(--hue) + 30), 100%, 70%);
+}
+
+footer {
+  color: var(--footer-text);
+}
+
+.typewriter {
+  border-right-color: var(--typewriter-cursor);
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+  100% { border-color: var(--typewriter-cursor); }
+}
+
+a {
+  color: hsl(var(--hue), 70%, 65%);
+}
+
+a:hover {
+  color: hsl(calc(var(--hue) + 30), 70%, 65%);
+}
+
+.color-menu-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.menu-toggle {
+  background: var(--theme-toggle-bg);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 15px var(--theme-toggle-shadow);
+  transition: all 0.3s ease;
+  border: 2px solid hsl(var(--hue), 93%, 59%);
+}
+
+.menu-toggle:hover {
+  border: 2px solid hsl(calc(var(--hue) + 30), 100%, 70%);
+}
+
+.menu-toggle i {
+  background: var(--theme-toggle-bg);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 15px var(--theme-toggle-shadow);
+  transition: all 0.3s ease;
+  border: 2px solid hsl(var(--hue), 93%, 59%);
+  font-size: 28px;
+  color: hsl(var(--hue), 100%, 70%);
+}
+
+.menu-toggle i:hover {
+  border: 2px solid hsl(calc(var(--hue) + 30), 100%, 70%);
+  font-size: 28px;
+  color: hsl(calc(var(--hue) + 30), 100%, 70%);
+}
+
+
+.color-menu {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  background: var(--menu-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px var(--menu-shadow);
+  padding: 20px;
+  width: 300px;
+  transform: scale(0.95);
+  transform-origin: top right;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  border: 2px solid hsl(var(--hue), 93%, 59%);
+}
+
+.color-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--menu-border);
+}
+
+.menu-header h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  background: hsl(var(--hue), 93%, 59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.close-menu {
+  background: transparent;
+  border: none;
+  color: var(--menu-close);
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.close-menu:hover {
+  background: var(--menu-close-hover);
+}
+
+.menu-wheel-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.color-wheel {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(
+      hsl(0, 100%, 50%),
+      hsl(30, 100%, 50%),
+      hsl(60, 100%, 50%),
+      hsl(90, 100%, 50%),
+      hsl(120, 100%, 50%),
+      hsl(150, 100%, 50%),
+      hsl(180, 100%, 50%),
+      hsl(210, 100%, 50%),
+      hsl(240, 100%, 50%),
+      hsl(270, 100%, 50%),
+      hsl(300, 100%, 50%),
+      hsl(330, 100%, 50%),
+      hsl(360, 100%, 50%)
+  );
+  position: relative;
+  box-shadow: 0 10px 30px var(--wheel-shadow);
+  cursor: pointer;
+}
+
+.wheel-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
+  background: var(--wheel-center-bg);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--wheel-center-shadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--wheel-center-text);
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 8px;
+}
+
+.selector {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  pointer-events: none;
+  z-index: 10;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 100px;
+  z-index: 1000;
+  background: var(--theme-toggle-bg);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 15px var(--theme-toggle-shadow);
+  transition: all 0.3s ease;
+  border: 2px solid hsl(var(--hue), 93%, 59%);
+}
+
+.theme-toggle:hover {
+  border: 2px solid hsl(calc(var(--hue) + 30), 100%, 70%);
+}
+
+.theme-toggle i {
+  position: fixed;
+  top: 20px;
+  right: 100px;
+  z-index: 1000;
+  background: var(--theme-toggle-bg);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 15px var(--theme-toggle-shadow);
+  transition: all 0.3s ease;
+  border: 2px solid hsl(var(--hue), 93%, 59%);
+  font-size: 28px;
+  color: var(--theme-toggle-icon);
+}
+
+.theme-toggle i:hover {
+  border: 2px solid hsl(calc(var(--hue) + 30), 100%, 70%);
+  font-size: 28px;
+  color: hsl(calc(var(--hue) + 30), 100%, 70%);
+}
+
+
+:root {
+  --theme-toggle-bg: rgba(0, 0, 0, 0.7);
+  --theme-toggle-hover: rgba(30, 30, 30, 0.8);
+  --theme-toggle-shadow: rgba(0, 0, 0, 0.5);
+  --theme-toggle-icon: hsl(var(--hue), 100%, 70%);
+  --menu-bg: rgba(0, 0, 0, 0.85);
+  --menu-shadow: rgba(0, 0, 0, 0.7);
+  --menu-border: rgba(255, 255, 255, 0.1);
+  --menu-close: #fff;
+  --menu-close-hover: rgba(255, 255, 255, 0.1);
+  --wheel-shadow: rgba(0, 0, 0, 0.4);
+  --wheel-center-bg: #222;
+  --wheel-center-shadow: rgba(0, 0, 0, 0.5);
+  --wheel-center-text: white;
+}
+
+[data-theme="light"] {
+  --theme-toggle-bg: rgba(255, 255, 255, 0.7);
+  --theme-toggle-hover: rgba(240, 240, 240, 0.9);
+  --theme-toggle-shadow: rgba(0, 0, 0, 0.1);
+  --theme-toggle-icon: hsl(var(--hue), 100%, 70%);
+  --menu-bg: rgba(255, 255, 255, 0.9);
+  --menu-shadow: rgba(0, 0, 0, 0.1);
+  --menu-border: rgba(0, 0, 0, 0.1);
+  --menu-close: #333;
+  --menu-close-hover: rgba(0, 0, 0, 0.05);
+  --wheel-shadow: rgba(0, 0, 0, 0.1);
+  --wheel-center-bg: #f0f0f0;
+  --wheel-center-shadow: rgba(0, 0, 0, 0.1);
+  --wheel-center-text: #333;
+}
+
+@media (max-width: 768px) {
+  .color-menu {
+    width: 280px;
+  }
+  
+  .menu-wheel-container {
+    width: 180px;
+    height: 180px;
+  }
+  
+}
+
+@media (max-width: 480px) {
+ 
+  .color-menu {
+    width: 260px;
+    top: 100px;
+  }
+  
+ 
+}
+
+/* additional stuff i need to add to the main */
+/* ========== Top Navigation Bar ========== */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; 
+  background: var(--menu-bg);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  z-index: 1000;
+  box-shadow: 0 5px 20px var(--footer-border);
+  border-bottom: 2px solid hsl(var(--hue), 93%, 59%);
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  border-radius: 8px;
+  padding: 8px 15px;
+  transition: all 0.3s ease;
+  border: 2px solid hsla(var(--hue), 93%, 59%, 1);
+}
+
+.nav-links a:hover {
+  border: 2px solid hsl(calc(var(--hue) + 30), 100%, 70%);
+}
+
+.nav-links .active-page {
+  color: var(--text-color);
+  border: 2px solid hsla(var(--hue), 93%, 59%, 1);
+  background-color: var(--selection-bg);
+}
+
+/* ===== Big Screen Navigation (default) ===== */
+.big-screen-nav {
+  display: flex;
+}
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: hsl(var(--hue), 100%, 70%);
+  padding: 10px;
+  z-index: 1001;
+}
+
+.small-screen-nav {
+  display: none;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 250px;
+  height: calc(100vh - 100px);
+  background: var(--menu-bg);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+  z-index: 1000;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+.small-screen-nav.active {
+  transform: translateX(0);
+  display: block;
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  
+}
+
+.menu-overlay.active {
+  opacity: 1;
+  visibility: visible;
+  
+}
+
+/* ===== Small Screen Navigation ===== */
+@media (max-width: 768px) {
+  /* Hide big screen navigation */
+  .big-screen-nav {
+    display: none;
+  }
+  
+  /* Show hamburger menu */
+  .hamburger-menu {
+    display: block;
+  }
+
+  .hamburger-menu:hover {
+    color: hsl(calc(var(--hue) + 30), 70%, 65%)
+  }
+  
+  /* Style the small screen menu */
+   
+  .small-screen-nav {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 250px;
+    height: calc(100vh - 100px);
+    background: var(--menu-bg);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+    z-index: 1000;
+    box-shadow: 0 5px 20px var(--footer-border);
+    border-right: 2px solid hsla(var(--hue), 93%, 59%, 1);
+  }
+  
+  /* Show small screen menu when active */
+  .small-screen-nav.active {
+    transform: translateX(0);
+  }
+  
+  /* Small screen menu links */
+  .small-screen-nav .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Adjust theme controls position */
+  .theme-controls {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  /* Adjust top nav height */
+  .top-nav {
+    height: 100px;
+  }
+  
+  
+  /* Menu overlay */
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+    
+  }
+  
+  .menu-overlay.active {
+    display: block;
+    
+  }
+  
+  /* Prevent body scrolling when menu is open */
+  body.menu-open {
+    overflow: hidden;
+  }
+
+  body {
+    padding-top: 100px;
+  }
+}
+
+

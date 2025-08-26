@@ -1,4 +1,4 @@
-// Theme Toggle
+// Here is the js if i need to update something:
 const themeToggle = document.getElementById('themeToggle');
 const themeIcon = document.getElementById('themeIcon');
 const body = document.body;
@@ -6,17 +6,14 @@ const body = document.body;
 const savedTheme = localStorage.getItem('theme');
 const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-// Apply saved theme or preferred scheme
 if (savedTheme) {
   body.setAttribute('data-theme', savedTheme);
   updateThemeIcon(savedTheme);
 } else {
-  const initialTheme = prefersDark ? 'dark' : 'light';
-  body.setAttribute('data-theme', initialTheme);
-  updateThemeIcon(initialTheme);
+  body.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+  updateThemeIcon(prefersDark ? 'dark' : 'light');
 }
 
-// Theme toggle handler
 themeToggle.addEventListener('click', () => {
   const currentTheme = body.getAttribute('data-theme');
   const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
@@ -27,11 +24,15 @@ themeToggle.addEventListener('click', () => {
 });
 
 function updateThemeIcon(theme) {
-  themeIcon.classList.toggle('fa-sun', theme === 'light');
-  themeIcon.classList.toggle('fa-moon', theme === 'dark');
+  if (theme === 'dark') {
+    themeIcon.classList.remove('fa-sun');
+    themeIcon.classList.add('fa-moon');
+  } else {
+    themeIcon.classList.remove('fa-moon');
+    themeIcon.classList.add('fa-sun');
+  }
 }
 
-// Color Picker
 document.addEventListener('DOMContentLoaded', function() {
   const colorWheel = document.getElementById('colorWheel');
   const selector = document.getElementById('selector');
@@ -39,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const colorMenu = document.getElementById('colorMenu');
   const closeMenu = document.getElementById('closeMenu');
 
-  // Menu toggle
   menuToggle.addEventListener('click', function(e) {
     e.stopPropagation();
     colorMenu.classList.toggle('active');
@@ -55,8 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
-  // Color wheel functionality
-  let currentHue = localStorage.getItem('hue') ? parseInt(localStorage.getItem('hue')) : 270;
+  let currentHue = localStorage.getItem('hue') ? parseInt(localStorage.getItem('hue')) : 300;
   document.documentElement.style.setProperty('--hue', currentHue);
 
   function saveHue(hue) {
@@ -78,7 +77,9 @@ document.addEventListener('DOMContentLoaded', function() {
     selector.style.top = `calc(50% + ${selectorY}px)`;
     
     currentHue = Math.round(normalizedAngle);
+    
     document.documentElement.style.setProperty('--hue', currentHue);
+    
     saveHue(currentHue);
   }
   
@@ -89,6 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const radius = Math.min(rect.width, rect.height) / 2 * 0.85;
     
     const hueRadians = (currentHue - 90) * (Math.PI / 180);
+    
     const x = centerX + radius * Math.cos(hueRadians);
     const y = centerY + radius * Math.sin(hueRadians);
     
@@ -99,18 +101,22 @@ document.addEventListener('DOMContentLoaded', function() {
     positionSelector(e.clientX, e.clientY);
   });
   
-  // Initialize with slight delay to ensure DOM is ready
-  setTimeout(initColorWheel, 50);
+  requestAnimationFrame(() => {
+    if (colorWheel.offsetWidth === 0 || colorWheel.offsetHeight === 0) {
+      setTimeout(initColorWheel, 100);
+    } else {
+      initColorWheel();
+    }
+  });
 });
 
-// Typewriter effect
 document.querySelectorAll('.typewriter').forEach(el => {
   el.addEventListener('animationend', () => {
     el.classList.add('animated');
   });
 });
 
-// Mobile Menu
+// Mobile menu functionality
 document.addEventListener('DOMContentLoaded', function() {
   const hamburgerMenu = document.getElementById('hamburgerMenu');
   const smallScreenNav = document.getElementById('smallScreenNav');
@@ -121,11 +127,12 @@ document.addEventListener('DOMContentLoaded', function() {
   overlay.className = 'menu-overlay';
   document.body.appendChild(overlay);
   
-  // Toggle menu function
+  // Toggle menu with animation
   function toggleMenu() {
     const isOpening = !smallScreenNav.classList.contains('active');
     
     if (isOpening) {
+      // Prepare to open
       smallScreenNav.style.display = 'block';
       overlay.style.display = 'block';
       body.classList.add('menu-open');
@@ -133,34 +140,40 @@ document.addEventListener('DOMContentLoaded', function() {
       // Force reflow to enable transition
       void smallScreenNav.offsetWidth;
       
+      // Start animations
       smallScreenNav.classList.add('active');
       overlay.classList.add('active');
     } else {
+      // Start closing animations
       smallScreenNav.classList.remove('active');
       overlay.classList.remove('active');
       
+      // Wait for transition to complete before hiding
       setTimeout(() => {
         if (!smallScreenNav.classList.contains('active')) {
           smallScreenNav.style.display = 'none';
           overlay.style.display = 'none';
           body.classList.remove('menu-open');
         }
-      }, 300); // Matches CSS transition duration
+      }, 300);
     }
   }
   
-  // Event listeners
+  // Hamburger click handler
   hamburgerMenu.addEventListener('click', function(e) {
     e.stopPropagation();
     toggleMenu();
   });
   
+  // Overlay click handler
   overlay.addEventListener('click', toggleMenu);
   
+  // Close menu when clicking links
   document.querySelectorAll('.small-screen-nav .nav-links a').forEach(link => {
     link.addEventListener('click', toggleMenu);
   });
   
+  // Close when clicking outside
   document.addEventListener('click', function(e) {
     if (!smallScreenNav.contains(e.target) && 
         !hamburgerMenu.contains(e.target) && 

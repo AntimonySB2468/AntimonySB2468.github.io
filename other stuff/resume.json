@@ -1,0 +1,129 @@
+{
+  "resume": {
+    "contact": {
+      "name": "Aadhya Anand",
+      "location": "Toronto, Canada",
+      "phone": "+1 (437) 235 4834",
+      "email": "aadhya.anand@gmail.com",
+      "linkedin": "https://linkedin.com/in/aadhya-anand",
+      "github": "https://github.com/aadhya-anand"
+    },
+    "summary": "Aspiring Machine Learning Engineer with 3+ years of experience in Python, data analysis, and full-stack development. Proven ability to design ML systems, optimize databases, and conduct academic research in mathematical physics.",
+    "education": [
+      {
+        "institution": "University of Waterloo",
+        "degree": "B.A.Sc Computer Engineering (Co-op)",
+        "period": "2025–2030",
+        "details": []
+      },
+      {
+        "institution": "Bloor Collegiate Institute",
+        "degree": "TOPS Program (OSSD)",
+        "period": "2021–2025",
+        "details": [
+          "GPA: 98%",
+          "AP Courses: Physics, Calculus, Computer Science",
+          "Honour Roll (2021-2024)"
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "name": "CS50p: Introduction to Programming with Python",
+        "issuer": "Harvard University",
+        "year": 2024
+      },
+      {
+        "name": "Complete C++ Programming Foundations",
+        "issuer": "LinkedIn Learning",
+        "year": 2025,
+        "url": "https://www.linkedin.com/learning/certificates/2599af0ad4ca302726a6c2118b3a4d9baac9ede9b0f1e1f93940f6b9ccdedcf3"
+      }
+    ],
+    "technical_skills": {
+      "languages": ["Python", "JavaScript", "Java", "SQL", "PHP", "R", "MATLAB", "HTML/CSS"],
+      "ml_tools": ["scikit-learn", "pandas", "NumPy", "TensorFlow", "UMAP"],
+      "databases": ["Salesforce", "Microsoft Access", "SQL/NoSQL"],
+      "concepts": ["Data Preprocessing", "Feature Engineering", "OOP", "Topology", "Riemannian Geometry"]
+    },
+    "experience": [
+      {
+        "role": "Student Researcher",
+        "company": "University of Toronto",
+        "period": "Jan 2025–Present",
+        "achievements": [
+          "Developing novel distance metric algorithms for n-dimensional surfaces using Riemannian geometry",
+          "Modeling gravitational effects on spacetime curvature with Python",
+          "Co-authoring research paper on applications in telecommunications"
+        ]
+      },
+      {
+        "role": "Salesforce Developer & Systems Analyst",
+        "company": "Proton Learning Centre",
+        "period": "Jun 2022–Present",
+        "achievements": [
+          "Digitized 1,000+ student records using custom Salesforce apps, reducing admin workload by 30%",
+          "Created PHP/SQL reporting tools automating grade tracking and attendance monitoring"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Manifold Music Recommendation Engine",
+        "technologies": ["Python", "UMAP", "Spotify API"],
+        "description": "Designed ML system mapping songs to 2D manifold space using audio features, achieving 40% more accurate genre-agnostic recommendations than metadata-based systems"
+      },
+      {
+        "name": "Pulsar Classification System",
+        "technologies": ["Python", "scikit-learn", "pandas"],
+        "description": "Trained CNN model with 92% accuracy identifying pulsars from radio telescope data"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Schulich Leader Scholarship Nominee",
+        "year": 2025,
+        "details": "Top 1% of STEM candidates nationwide"
+      },
+      {
+        "name": "NASA Scientist For A Day - 1st Place",
+        "year": 2019,
+        "details": "Among 5,000+ global entries"
+      },
+      {
+        "name": "Toronto Science Fair - 1st Place",
+        "year": 2020,
+        "details": "For ML-based environmental project"
+      }
+    ],
+    "languages": [
+      {"language": "English", "proficiency": "Native"},
+      {"language": "French", "proficiency": "Intermediate (B2)"},
+      {"language": "Malayalam", "proficiency": "Conversational"}
+    ]
+  },
+  "linkedin_summary": {
+    "headline": "Aspiring Machine Learning Engineer | Python Developer | UofT Researcher",
+    "about": "Computer Engineering student @ Waterloo with expertise in ML systems development. Built music recommendation engine using manifold learning, pulsar classifier (92% accuracy), and academic database systems. Schulich Leader Nominee and NASA Science Fair winner. Passionate about transforming complex math into practical tools.",
+    "featured_skills": [
+      "Machine Learning",
+      "Python Programming",
+      "Data Analysis",
+      "Algorithm Development",
+      "Database Design",
+      "Academic Research"
+    ],
+    "featured_experience": [
+      {
+        "role": "Student Researcher",
+        "company": "University of Toronto",
+        "brief": "Developing geometric distance algorithms for n-dimensional surfaces"
+      },
+      {
+        "role": "Salesforce Developer",
+        "company": "Proton Learning Centre",
+        "brief": "Built systems managing 1,000+ student records"
+      }
+    ]
+  }
+}

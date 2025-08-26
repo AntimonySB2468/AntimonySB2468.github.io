@@ -1,0 +1,1150 @@
+can you sort through my resume and format it in a json? make this as general as possible and don't edit any of the titles
+
+
+resume: 
+
+
+Aadhya Anand
+115 Omni Drive Unit 902, Toronto, Canada
++1 (437) 235 4834
+aadhya.anand@gmail.com
+EXPERIENCE
+Proton Learning Centre — Administrative Assistant
+June 2022 - PRESENT
+Use Microsoft Access, Microsoft Excel, and Salesforce to design databases, spreadsheets, and administration tools
+Coordinate with the headmaster to design relevant databases to track students and the various aspects of their learning, such as their homework, attendance, and class performance
+Coordinate and communicate with teachers to improve student’s learning experience
+University of Toronto— Researcher
+January 2025 - Present
+Currently writing a research paper on the distance between two points on any dimensional surface
+Learning complex mathematical concepts such as topology, Riemannian and Lorentzian geometry, and special relativity
+Collaborating with a Ph.D. student and another High School student
+Great Lunar Expedition for Everyone (GLEE) — Participant
+June 2022 - PRESENT
+Collaborate with fellow students to program small, affordable landers called “LunaSats” to the moon
+Promote STEM education through outreach programs for GLEE
+Learn about the various sensors and capabilities of the LunaSats
+Design our own mission to collect data on the Moon and program the LunaSats in such a way as to get the data. 
+Royal Tech Solutions — Administrative Assistant
+March 2020 - PRESENT
+Develop and manage a Salesforce CRM for cable TV customers
+Onboard new clients into Salesforce CRM
+Software configuration of set-top boxes
+Manage client subscriptions in various external systems
+Youreka Toronto— High School Investigator
+February 2024 - May 2024
+Investigated the connections between environmental changes and human health under the guidance of University of Toronto undergraduate students
+Used the scientific method to analyze research papers and conduct research
+Used R to analyze datasets and draw scientific conclusions 
+Wrote research papers that were published in annual symposiums
+Competed with other Youreka regional teams under the Toronto regional team
+Bloor CI Mean Girls HSE Production— Ensemble Member & Props Department Lead
+October 2023- April 2024
+Designed and kept track of props required during the musical production
+Coordinated with directors and stage managers 
+Acted as an ensemble understudy
+Multitasked singing, dancing, and acting during the performance
+Girls E-Mentorship — Mentee
+July 2024 - May 2025
+Chosen from a competitive pool for GEM’s 9‑month mentorship program, matching one‑on‑one with a professional mentor to develop leadership, academic, and career-readiness skills
+Attended five GEMinars, including a Google enrichment workshop, where I engaged with industry professionals and built practical tech knowledge 
+Awarded a $2,000 GEM scholarship for exceptional initiative and financial need, helping fund post-secondary education 
+Participated in experiential learning opportunities—job-shadowing, networking events—broadening exposure to STEM and professional environments 
+Demonstrated measurable impact: 96 % gained clarity on career skills, 95 % increased understanding of career paths, and 93 % boosted confidence in self-advocacy
+Bloor CI Welcoming Committee— Member
+June 2022- PRESENT
+Brainstorm with like-minded students about ways to make incoming students feel welcome in high school.
+Organize ice-breakers and classroom visits for grade 9 students over the school year.
+Proton Learning Centre — Math, English and Science Tutor
+June 2022 - PRESENT
+Tutor elementary and middle school students in Math, Science, and English
+Teenage Tutors — Tutor
+March 2024 - PRESENT
+Tutor elementary, junior high, and high school students online from grades 3-12 in Math, Physics, and Chemistry
+Tropicana Food Bank — Volunteer
+July 2024 - August 2024
+Stocked food into the foodbank under the guidance of my supervisor
+Assisted customers by giving them food from the bank
+Kumon Math and Reading Centre — Centre Assistant
+August 2023 - February 2024
+Assisted students in Primary Instruction (PI) and Early Learning (EL) with math and reading classwork
+Marked the students’ homework
+Ensured students were focused in class
+Bloor Astronomy Club— Executive 
+September 2021- June 2023
+Organized workshops that promoted interest in astronomy 
+Hosted bake sales and ran a monthly magazine
+Do West Fest— Student Volunteer 
+June 9, 2023 - June 11, 2023
+Managed kids’ activities such as bouncy castles and inflatable slides
+Worked at the info booth to give festival go-ers information about the festival
+Sold festival merchandise, such as t-shirts and tote bags
+Helped set up and put away the festival
+Toronto Dragon Boat Race Festival— Student Volunteer 
+June 18, 2023
+Managed the kids’ zone 
+Worked at the food booth, gave snacks to volunteers and people with food coupons
+Helped set up and put away the festival
+Elections Canada— Student Volunteer
+July 2021 - October 2021
+Door-to-door campaigning for the 2021 federal election
+Scrutinized poll counting after elections
+Compiled office/election data to help other campaign associates
+
+EDUCATION
+Bloor Collegiate Institute — Talented Offerings for Programs in the Sciences (TOPS) Diploma
+2021 – PRESENT
+Annamalai University— Grade Level Exam 2 (in Vocal Music)
+2018 – PRESENT
+WhiteHat Jr — Game Developer
+2020
+Pneuma Ensemble Program in Medieval Performing Arts— Professional Medieval Actor (Level 1)
+2016
+SKILLS
+Python
+Java
+JavaScript
+R
+SQL
+PHP
+Mathematics
+Logical Reasoning
+Child Minding
+Time Management
+Communication Skills
+Public Speaking
+Debate Skills
+Scientific Knowledge
+Memory Retainment
+Fast Learning
+Decision-Making Skills
+Problem-Solving
+Critical Thinking
+Adaptability
+Interpersonal Skills
+Graphic Design
+CERTIFICATIONS
+Standard First-Aid and CPR-C certified (2024)
+Python certification Harvard (CS50p)  (2024)
+AWARDS
+NASA Scientist For A Day First Place Winner (2019-2020)
+Grade 8 Academic Excellence Award (2020-2021) 
+Grade 7 MODEL 3 Award (2019-2020)
+Toronto Science Fair First Place Winner (2019-2020)
+Honour Roll (2021-2024)
+TOPS Gr. 9 Science Subject Proficiency Award (2021-2022)
+Schulich Leader Scholarship Nominee (2025)
+
+LANGUAGES
+English (Fluent)
+French (working proficiency) 
+Malayalam (working proficiency)
+PROJECTS
+Pulsar Classification using Machine Learning (Python)
+Ninja Blocks (Javascript)
+Movie rating database (Java)
+Student database for Proton Learning Centre (SQL/PHP)
+REFERENCES AVAILABLE UPON REQUEST
+"company": "MetaMinds Day Camp",
+      "position": "Volunteer Counselor",
+      "start_date": "06-23",
+      "end_date": "08-23",
+      "current_job": false,
+      "achievements": [
+        "Facilitated STEM learning activities for 30+ elementary students daily, adapting teaching methods for diverse learning styles and neurodiversity needs",
+        "Co-developed and implemented daily lesson plans focused on computational thinking and creative problem-solving, resulting in 95% participant engagement",
+        "Managed conflict resolution and behavioral support for campers, creating inclusive environment where 100% of participants completed final projects"
+      ] 
+
+Waterloo AIF:
+About You - Part A
+Question 1: Tell us about a passion or strong interest (required) 
+Tell us about a passion or strong interest of yours. How [and when] did you become involved in this interest [and for how long have you been involved]? What have you learned about yourself from this interest? How will you apply this knowledge as a student at the University of Waterloo? (900-character limit)
+During the pandemic, I took an introductory coding class in grade 7. I learned the basics of coding logic, using GitHub, and how to plan out and create a program. Over four years, I deepened my skills by self-studying Python and applying it to solve unique challenges. For example, I created a simple Python program using Pandas and NumPy to analyze Olympic participation and medals for UBC athletes. Additionally, I learned machine learning and data science with a University of Waterloo graduate, creating a program to identify pulsars from space pulse profiles. Through these projects, I discovered my passion for creative problem-solving and a talent for outside-the-box thinking. I look forward to using these traits and my Python skills to contribute to the thriving learning community at Waterloo, particularly through co-ops in software development, analytics and the Capstone Design project.
+
+
+Question 2: Community involvement
+Briefly describe a group, organization, or community that you have been involved in, are a member of, and/or have contributed to. What contributions have you made as a member of this group? Were you able to lead, influence others and/or influence decisions for the good of the group and its goals? How has your involvement helped make this community better? (900-character limit)
+At the start of Grade 12, I co-founded the Peer Tutoring Club to address academic disparity at my school, Bloor Collegiate Institute. Bloor’s student body included high achievers and others struggling to keep pace. Together with fellow students, I created the Peer Tutoring Club to connect struggling learners with tutors. As an executive, I developed platforms for tutor registration, session requests, and volunteer hour tracking. Once these systems were in place, I matched tutees with suitable tutors and ensured their needs were being met. Beyond academic support, the club fostered a culture of collaboration, respect, and inclusivity, bridging gaps between students of diverse academic backgrounds. These efforts fostered meaningful connections and enriched my school’s culture of learning and support. I hope to continue building my tutoring skills at Waterloo as a WEEF TA.
+
+
+Question 3: Experience reflection
+Describe a situation where you were treated unfairly or witnessed someone else being treated unfairly. What did you do at the time and why? Would you do anything differently if the same situation occurred today? Has this event impacted or changed who you are now and if so, how? (900-character limit)
+
+My friend can't afford transit tickets, often forcing him to walk to school in cold and rainy weather. As a result, he was often sick and missed out on classes. I found it unfair that my friend – who lived farther solely because rent was cheaper there – could not afford to commute to school. I was not sure how to help people in situations like his. This year, I started a program that gives free TTC tickets to students living outside the school district. I organized fundraising events at school, like charity bingo and bake sales, to raise money for the tickets. To determine how tickets are distributed, I prioritized students who demonstrated financial need and would need to walk or bike more than 10 minutes to get to school. The initiative helped my friend and others attend school without extra costs, deepening my understanding of equity and the value of community-driven solutions.
+
+
+Question 4: Goals at Waterloo
+What is your primary goal for attending the University of Waterloo? Have you explored, been exposed to, or have experience in the field you plan to pursue and if so, how? Did you turn to anyone for advice in exploring alternative options or backup plans for your goal and if so, how did this person help you? (900-character limit)
+
+The University of Waterloo offers professional opportunities for students, including co-op programs and design teams such as UW Orbital, which will connect my interest in astronomy with computer science, engineering, and data science. My interest in data science began when I built a classification model to predict pulsars from pulse profile datasets. I further deepened my skills in a research program at the University of Toronto, creating a regression model to determine the link between air pollution and melanoma. The University of Waterloo has excellent computer science and computer engineering programs, which will equip me with the expertise to pursue data science. After consulting with my cousin, an alumnus of the University of Waterloo, I’ve also chosen physical sciences as a backup plan because it involves data analysis and aligns with my interests in physics and astronomy.
+
+
+Question 5: Outside of the Classroom
+Please share what you are or have been involved in outside of your studies in the last 12 months, whether in school, the community, or your home.
+
+Description/title (30-character limit)
+Start Date (calendar select)
+End Date (calendar select)
+Number of hours in the past 12 months
+Youreka High School Investigator
+February 2024
+June 2024
+60
+Girls E-Mentorship – Mentee
+July 2024
+June 2025
+30
+Props lead and Ensemble member
+October 2023
+April 2024
+200
+Co-Founder of Peer Tutoring club
+July 2024
+June 2025
+100
+Administrative assistant at Proton Learning Centre
+May 2024
+June 2025
+150
+Tutor at Teenage Tutors
+April 2024
+June 2025
+40
+Computer assembly and repair
+December 2014
+June 2025
+20
+Digital Art
+March 2020
+June 2025
+50
+Embroidery and Crochet
+March 2020
+June 2025
+50
+3D Design and CAD
+June 2019
+June 2025
+50
+Volunteer at Tropicana Community Services
+July 2024
+August 2024
+120
+UofT Math Mentorship Program
+January 2025
+June 2025
+5
+
+
+Question 6: Special achievements, distinctions, and awards
+If you have received any academic or non-academic awards or distinctions in the last 3 years, please list them below.  Please provide the size of the competition if you know how many people participated.
+
+
+Award, Honour or Distinction
+Award Type (Academic/Non-Academic)
+Year Received
+Size of competition (if known and rank within)
+Honour roll
+Academic
+2022
+
+
+Honour roll
+Academic
+2023
+
+
+Honour roll
+Academic
+2024
+
+
+TOPS Science Proficiency Award
+Academic
+2022
+
+
+Schulich Leader Nomination
+Academic
+2024
+
+
+Canadian Indian Arts Festival Drawing competition
+Non-Academic
+2023
+60, 2nd place
+
+
+
+
+Engineering ✅
+Question 1: Courses not taken at your regular day school
+Have you completed or will you complete any of your Grade 12 (or equivalent) courses at night school, at summer school, in person outside of your regular day school or school board, or online outside of your regular day school or school board? 
+Yes
+No
+
+Question 2: Courses not taken at your regular day school
+Please list all such courses including course name/course code, where the course was taken, and why the course was taken outside of your regular day school.  (900-character limit)
+
+FSF4U (Grade 12 French) – I took Grade 12 French at TDSB E-Learning Summer School.  This course could not fit into my schedule at my day school.
+SES4U (Grade 12 Earth and Space Science) – I took Earth and Space Science in TDSB E-Learning Summer School. This course was not offered at my day school, and was a prerequisite for Honours Physical Sciences, another program I applied to at the University of Waterloo. 
+
+
+Question 3: Repeated courses
+Have you repeated or will you repeat any of your Grade 12 (or equivalent) courses?
+Yes
+No
+
+Question 4: Repeated courses
+Please list all such courses including course name/course code, where the repeated course was taken, and why the course was repeated.  (900-character limit)
+
+N/A
+
+
+Question 5: Scholarship/Programming knowledge
+Do you want to be automatically considered for an entrance scholarship and or are you an applicant to the Software Engineering Program?
+If you wish to be considered for entrance scholarships or are an applicant to Software Engineering, you are required to complete an online interview delivered by Kira Talent.  The interview will allow us to assess your programming knowledge and get to know you better.  If you have any questions, please contact enginfo@uwaterloo.ca.
+Yes
+No
+
+Question 6: Alternate Engineering Program Choice
+If we are unable to offer you a place in your first-choice Engineering program, we may be able to consider you for an alternate Engineering program by clicking the link below. You may only select one alternate choice for Engineering.
+
+Chemical Engineering
+
+Math/Computer Science ✅
+Question 1: Courses not taken at your regular day school
+Have you completed or will you complete any of your Grade 12 (or equivalent) courses at night school, at summer school, in person outside of your regular day school or school board, or online outside of your regular day school or school board? 
+Yes
+No
+
+Question 2: Courses not taken at your regular day school
+Please list all such courses including course name/course code, where the course was taken, and why the course was taken outside of your regular day school.  (900-character limit)
+
+FSF4U (Grade 12 French) – I took Grade 12 French at TDSB E-Learning Summer School.  This course could not fit into my schedule at my day school.
+SES4U (Grade 12 Earth and Space Science) – I took Earth and Space Science in TDSB E-Learning Summer School. This course was not offered at my day school, and was a prerequisite for Honours Physical Sciences, another program I applied to at the University of Waterloo. 
+
+
+Question 3: Repeated courses
+Have you repeated or will you repeat any of your Grade 12 (or equivalent) courses?
+Yes
+No
+
+Question 4: Repeated courses
+Please list all such courses including course name/course code, where the repeated course was taken, and why the course was repeated.  (900-character limit)
+
+N/A
+
+
+	
+Question 5: 2024 Mathematics Contests
+There is strong evidence that students who prepare for and participate in mathematics contests are more likely to succeed in university-level mathematics courses.
+If you have written any of the following contests, enter the score you received.  If you have not written any of the following contests, check the "no" checkbox. If you have written any of the following contests and do not know the score, please leave the box blank.
+
+Description
+Yes/No
+Score
+Do you plan or did you write the Canadian Senior Mathematics Contest in November 2024?
+Yes
+
+
+Did you write the Hypatia Contest in April 2024?
+Yes
+25
+Did you write the Fermat Contest in February 2024?
+Yes
+96
+Did you write the Euclid Contest in April 2024?
+no
+
+
+Did you write the Canadian Computing Competition (Senior level) in February 2024?
+no
+
+
+
+
+
+Question 6: Euclid Contest
+We recommend that you prepare for and write the Euclid Contest that takes place on April 2, 2025, in North and South America and on April 3, 2025, outside North and South America.  The deadline to register is in early March 2025. Writing the Canadian Senior Mathematics Contest (CSMC) and/or the Euclid Contest is not required for admission, but a strong performance on either or both of these can help you earn a place in the Faculty of Mathematics.  Results from the CSMC and Euclid Contest will be a factor in awarding entrance scholarships, and you will be considered for many entrance scholarships only if you write at least one of these contests.
+Are you planning to write the Euclid Contest in April 2025?
+Yes
+No
+
+Question 7: Canadian Computing Contest
+Canadian Computing Contest Instructions: This competition provides students with an opportunity to test their abilities in designing and understanding algorithms and programming. The deadline to register is early February 2025. The Canadian Computing Competition takes place on February 19, 2025, in North and South America and on February 20, 2025, outside North and South America.
+
+Description
+Yes/No
+Score
+Will you write Canadian Computing Competition (Senior level) in Feb 2025? If yes, leave the score blank.
+Yes
+
+
+Did you write the Canadian Computing Competition (Senior level) in February 2024?
+No
+
+
+UOFT Engineering Application:
+Test Scores
+
+
+
+Extracurricular Activities
+This is your opportunity to highlight your achievements outside of the classroom.
+
+We recommend that you complete the section carefully, and use the space given under “Description” to speak about what each activity entailed and what your specific role in the activity was. Keep in mind that the Committee may not be familiar with your school or community organizations/acronyms and this is your opportunity to provide more information.
+
+To begin, select “Add Activity” and choose an item from the drop-down. For each activity you will be asked to select a type of involvement. Select the level at which you participated. If you were involved in the local chapter of a national organization (e.g. Air Cadets), select “local”. If your school participated in a provincial competition select “school”.
+
+You are asked to provide a reference for each activity. Provide the name and telephone number or e-mail address of someone (e.g. teacher, coach, employer) who can confirm your involvement with the activity.
+
+You may add as many activities as you would like, from the beginning of high school to the summer of 2025. It is not necessary to list every activity that you have participated in – the Committee is most interested in activities that you have found meaningful. Particular consideration will be given to involvement within the last two years.
+
+!Name
+!Description
+!Activity
+!Scope/Level
+!From/To
+!Hrs/Mth/Year
+!Reference
+Youreka 
+Youreka is a research program that allows high school students to conduct research with an undergraduate mentor. Participants are tasked with writing a research paper on the impact of environmental factors on human health. Participants also attended workshops to learn data science principles and the programming language R. Our team wrote a research paper detailing how certain pollutants can affect rates of melanoma. I was in charge of coding the script needed for the correlational analysis and designing the research poster for the symposium. Our research won first place in Toronto, and the abstract was published in the official Youreka Canada Journal in 2024. Link: https://heyzine.com/flip-book/46184db887.html#page/42 
+ Academic Enrichment Program
+Other
+February 2024-June 2024
+N/A
+N/A
+Girls E-Mentorship 
+Girls E-Mentorship is a program that pairs young women with a mentor in the fields they aspire to go into, providing young women with illustrious opportunities based on their interests and talents, such as scholarships, networking opportunities, and chances to connect with women who hold executive positions in companies like Google, UPS, and Sephora. I was matched with a mentor who worked in both science and technology. I actively volunteered to promote Girls E-Mentorship, encouraging girls at my school to participate in the program.
+ Academic Enrichment Program
+Other
+July 2024-May 2025
+N/A
+N/A
+Math Mentorship program at the University of Toronto
+I was accepted into the highly competitive Math Mentorship program at the University of Toronto. This program pairs high school students interested in the field of mathematics study and research, with graduate students, post-doctoral fellows and faculty in the field. Students will work on a math research project under the guidance of their mentor. My mentor is Sabrina Lin, a first-year PhD. student studying mathematical physics and general relativity. I expect that I will create a research project related to those fields and present it in a symposium at UofT. 
+ Academic Enrichment Program
+Other
+Jan 2025-June 2025
+N/A
+N/A
+Bloor CI Musical 2024 
+I helped organize the school musical in my grade 11 year, where I juggled two roles as an ensemble member and as the props manager. I coordinated with the directors and stage managers to design props for the musical. I juggled this with everyday rehearsals as a member of the ensemble, along with my busy schedule as an AP student. This experience taught me how to manage multiple roles at the same time, and how to properly budget your time.
+ Arts
+School/Organizer
+October 2023-April 2024
+50, 4
+Alison Blair – alison.blair@tdsb.on.ca 
+Schulich Leader Scholarships
+The Schulich Leader Scholarships are the most coveted STEM scholarships available to high-achieving, entrepreneurial STEM students. This scholarship requires a nomination from your high school, which I am very fortunate to have received. The process to get my nomination was tough; I had to write a cover letter and perform well in an interview conducted by the guidance counsellors. I was up against highly qualified competitors, but my vast experiences related to STEM and my interview skills awarded me this nomination. 
+ Awards
+Nominated/National/Academic
+December 2024
+N/A
+Oscar Stam -- oscar.stam@tdsb.on.ca 
+Peer Tutoring club
+In grade 12, I founded the Peer Tutoring Club with like-minded peers in my school. I led the development of the administrative system that matches tutors to tutees, and I tutored a student in computer science and helped her improve her grade by 30%. 
+ Clubs
+School/Appointed Executive
+September 2024-June 2025
+5, 7
+Oscar Stam – oscar.stam@tdsb.on.ca 
+Royal Tech Solutions
+I assisted in assembling and repairing computers and worked in customer relations management. I implemented Salesforce to manage Royal Tech Solutions’ customers. 
+ Community Involvement
+Community/Member
+September 2022-June 2030
+8, 12
+Anand Upendran – anand@royalcomputercare.com 
+Toronto Area Solidarity Summer Alliance
+I will be a youth fellow for the Toronto Area Solidarity Summer Alliance (TASSA), a group that works with South Asian and Indo-Caribbean youth to become leaders in their communities. As a youth fellow for TASSA, I will get funds to support my social movement. I plan to create an organization in my school that will provide students in financial need with TTC tickets so that they can save money on commuting to school.
+ Community Involvement
+School/Organizer
+Feb 2025-June 2025
+4, 5
+TOareasolidaritysummeralliance@gmail.com 
+Proton Learning Centre
+At Proton Learning Centre, I helped the centre transition from paper-based administration to computer-based administration. I developed systems to keep track of student attendance, student behaviour, and textbooks. I also refurbished their website. I also taught students Math, Science, and English.
+ Employment
+Part-Time
+April 2024- June 2030
+16, 12
+Faisal Anwar Basha – fsabasha@gmail.com 
+Teenage Tutors
+I tutored high school students in math, physics, chemistry, and computer science online.
+ Employment
+Part-Time
+March 2024- June 2030
+4, 8
+Yordest Young – yordest@gmail.com 
+
+
+Use the box below to reflect on how your involvement in a particular extracurricular activity (or activities) may have shaped your plan to study in the program(s) you had selected for U of T Engineering. We highly encourage you to use this space to articulate your interest(s) for your selected Engineering program(s). (250 words or less)
+
+My journey toward a career in engineering has been shaped by a blend of hands-on experiences and a natural curiosity nurtured by a family of engineers. Inspired by my mother, a software engineer working with systems like CRM software and Gantt charts, I created a program at my tutoring job to track students’ attendance and learning. I later expanded my skills by completing Harvard’s CS50 Python course through edX, becoming acutely proficient in Python.
+
+While my mother showed me the software side of computer engineering, my father’s computer repair business provided insights into hardware. I learned about circuits and programming and applied it to build a gaming computer from scratch. Through this experience,  I developed a deep appreciation for the intricate design and problem-solving skills inherent to engineering. It ignited my desire to dive deeper into engineering’s diverse fields, sparking a commitment to understanding which discipline best aligns with my passions and abilities.
+
+I believe in experiencing all the different forms of engineering before committing to a discipline, which is why I am applying to TrackOne. U of T’s TrackOne program offers the unique opportunity to engage with all eight core engineering disciplines, enabling me to discover where my passions and abilities best align before committing to a specific path. By experiencing all engineering aspects through TrackOne, I aim to refine my path and commit to a discipline that resonates with my interests and aspirations.
+
+Queen's Scholarship application:
+Financial Aid and Awards Profile
+Extracurricular Activities
+Indicate the total number of hours you have devoted (or expect to devote) between September and August (for this year and the previous two years) to extracurricular activities. In the space below briefly describe activities that demonstrate your leadership, community service, and high school and community involvement. Include those in which you know you will be participating in between now and the end of the school year.
+
+Extracurricular Activities Description (September 2024 - August 2025 ) (4000 characters maximum):
+
+Co-Founder of Peer Tutoring Club (60 hours) – As an executive member and co-founder of the Peer Tutoring Club, I led the operations team and ensured that all tutees received the support they needed. Additionally, I tutored a student in computer science and brought their grade up by thirty percent.
+
+Volunteer at DHARMA (20 hours) – DHARMA is a community organization for Malayalis in Oshawa and Ajax, dedicated to preserving traditional Hindu celebrations within the Malayali diaspora. As a volunteer, I served as an emcee for multiple cultural events and participated as a performer. Additionally, I supported front-of-house operations and catering services. Through my contributions, I helped foster cultural connection and celebration among community members, strengthening ties within the Malayali diaspora and ensuring the continuation of traditional practices for future generations.
+
+Tutor at Teenage Tutors (60 hours) – I provided online tutoring in Math, Science, Physics, and Chemistry to elementary, junior high, and high school students. I helped them achieve their academic goals by explaining challenging concepts clearly and effectively.
+
+Tutor at Proton Learning Centre (100 hours) – I tutor elementary and middle school students in Math, Science, and English. I tailor my lessons to each student’s needs and help them improve their understanding and performance in school.
+
+Youth Fellow at Toronto Area Solidarity Summer Alliance (40 hours) –  After the summer workshops, I applied to become a Youth Fellow at TASSA and create a movement of my own. I will receive a $250 honorarium to create an organization in my school that funds TTC tickets for students who live outside the school’s catchment zone. 
+
+
+Extracurricular Activities Description (September 2023 - August 2024 ) (4000 characters maximum):
+
+Ensemble Member & Props Department Lead at Bloor CI Mean Girls HSE Production (120 hours) – I took on two roles in my school’s production of the musical Mean Girls. As an ensemble member and the lead of the props department, I was responsible for creating all the props needed for the show, which enhanced my skills in leadership, project management, coordination, and multitasking. The production was a massive success and made a lasting impact on the feeder schools within our school’s catchment area.
+
+Volunteer at Tropicana Food Bank (40 hours) – I supported my local community in Scarborough by volunteering at the Tropicana Food Bank. My role involved assisting customers and distributing food to those in need. Through this experience, I gained a deeper understanding of food insecurity and its profound effects on individuals in my community.
+
+Researcher at Youreka University of Toronto Chapter (100 hours) – Youreka is a four month long research program at various universities in Canada that group students with an undergraduate mentor to write a research paper that is then presented in a regional symposium. My group wrote a paper analysing the correlation between air pollution and melanoma in the United States. At the regional symposium in the University of Toronto, our group won first place and we presented our paper at the national symposium, which was hosted online. 
+
+Tutor at Proton Learning Centre (50 hours) – I tutor elementary and middle school students in Math, Science, and English. I tailor my lessons to each student’s needs and help them improve their understanding and performance in school.
+
+Participant in Toronto Area Solidarity Summer Alliance Summer Workshops (5 hours) – I participated in the Toronto Area Solidarity Summer Alliance workshop in 2024. This workshop focused on community organization and building solidarity, equipping me with skills to support local and global initiatives.
+
+Member of Bloor CI Welcoming Committee (20 hours) – I work with other committee members to brainstorm initiatives that help incoming grade 9 students feel comfortable in high school. I organize icebreakers and classroom visits throughout the school year to create a welcoming atmosphere.
+
+
+Extracurricular Activities Description (September 2022 - August 2023 ) (4000 characters maximum):
+
+Executive at Bloor Astronomy Club (50 hours) – As an executive member of the Bloor Astronomy Club, I organized workshops to promote student interest in astronomy. I also managed bake sales and contributed to a monthly magazine to raise funds and share knowledge about space.
+
+Member of Bloor CI Welcoming Committee (20 hours) – I work with other committee members to brainstorm initiatives that help incoming grade 9 students feel comfortable in high school. I organize icebreakers and classroom visits throughout the school year to create a welcoming atmosphere.
+
+Tutor at Proton Learning Centre (50 hours) – I tutor elementary and middle school students in Math, Science, and English. I tailor my lessons to each student’s needs and help them improve their understanding and performance in school.
+
+Volunteer at Do West Fest (10 hours) – I volunteered at the Do West Fest, where I managed kids' activities, sold festival merchandise, and provided information to attendees at the info booth. I also helped with the festival’s setup and cleanup.
+
+Volunteer at Toronto Dragon Boat Race Festival (8 hours) – I supported the festival by managing the kids’ zone and distributing snacks to volunteers and participants. I also helped with setting up and cleaning up the event.
+
+Participant in Toronto Area Solidarity Summer Alliance Summer Workshops (5 hours) – I participated in the Toronto Area Solidarity Summer Alliance workshop in 2023. This workshop focused on community organization and building solidarity, equipping me with skills to support local and global initiatives.
+
+Volunteer at Kaisiki Performing Arts Centre (60 hours) – Kaisiki Performing Arts Centre is a carnatic music and dance centre that provides instruction to youth in the GTA. I was both professionally learning carnatic music under the tutelage of Sri. Arun Gopinath and volunteered as an emcee in events. I occasionally also provided technological support for online classes and events. 
+
+Major Admission Award
+In the space provided, please identify awards, competitions or conferences you have received or participated in since September 2021 that are meaningful to you. These may be through school, the community, private organizations, provincially or nationally. Refrain from using acronyms. Include a brief description, if applicable. Please note: the character maximum includes spaces and returns as a counted character.
+
+Example: York Region President's Council Conference - High School representative
+
+Name/Description (100 characters or less)
+Year (YYYY)
+Queen’s Model UN conference – UNSC (UAE representative)
+2021
+Cedarbrae CI Model UN conference – UNSC (New Zealand representative)
+2022
+Monarch Park Crisis conference– Ad Hoc
+2023
+YouthInk March Break workshop participant 
+2024
+Toronto Area Solidarity Summer Alliance workshop participant 
+2023 & 2024
+Youreka first place winner in Toronto
+2024
+Second place winner for Canada India Arts Festival Drawing Contest
+2023
+Honour roll
+2022-2025
+TOPS Science Award
+2022
+Hack the North 
+2024
+
+
+We want to better understand the complete landscape of your experiences outside of the classroom. Indicate your involvement in 5 activities that you are most proud of and that exemplify your leadership and engagement in school/community service. You may include a brief description of the activity and your involvement, your Role, the calendar year(s) you were involved in, and the approximate hours you dedicated to this activity in a given year. If your involvement in a particular activity spans more than one year, report the number of hours you dedicated in a single year only. Please note: the character maximum includes spaces and returns as a counted character.
+
+Include any paid employment by indicating ‘Yes’ in the column provided. Employment is viewed as equally important in enriching your experiences and skills in these areas.
+
+e.g. YMCA - Swimming Instructor| Team Leader| 2023-2024 | 160 hours| Yes
+
+Organization/Activity
+(Brief Description, 100 characters or less)
+Role
+(20 characters or less)
+(e.g. leader, captain, participant, founder)
+Years involved
+(e.g. 2022-2024 or 2023)
+Approximate hours in a given year
+(e.g. 220)
+Was this paid employment?
+Yes / No
+Bloor Collegiate Institute Musical
+Props manager
+2023-2024
+120
+No
+Youreka - University of Toronto Chapter
+Researcher
+2024
+100
+No
+Proton Learning Centre
+Tutor
+2021-present
+150
+Yes
+Toronto Area Solidarity Summer Alliance
+Youth Fellow
+2023-present
+50
+Yes
+Teenage Tutors
+Tutor
+2024-present
+60
+Yes
+
+
+Provide us with an example of your volunteerism in your school or community. What was the impact of your involvement? What was your motivation to engage in this? How will your past experiences relating to volunteerism lead to continued service while at Queen's? (2500 characters or less - including spaces and returns)
+At the start of Grade 12, I co-founded the Peer Tutoring Club to address academic disparity at my school, Bloor Collegiate Institute. As one of two schools in Toronto with the elite TOPS STEM program, Bloor’s student body included both high achievers and others struggling to keep pace. As a TOPS student, I frequently received requests for help from peers outside the program. While I could assist with some subjects, I recognized a larger need for an organized, sustainable solution. Together with fellow students, I created the Peer Tutoring Club to connect struggling learners with peers excelling in various subjects.
+As a key executive member, I developed platforms for tutor registration, session requests, and volunteer hour submissions. Once these systems were established, I matched tutees with suitable tutors and ensured their needs were being met. Personally, I tutored a Grade 11 pre-AP computer science student who was on the verge of failing. Through weekly sessions, I explained course concepts, cultivated her problem-solving mindset, and guided her through debugging assignments. These efforts resulted in her grade rising from near-failure to an impressive 86%. Seeing her progress and confidence grow reaffirmed the importance of our initiative.
+This club became more than an academic support system; it fostered a culture of collaboration, respect, and inclusivity in our school. It bridged gaps between students of different academic backgrounds, encouraged mutual understanding, and created meaningful connections. Leading this initiative also enhanced my own skills. I became more effective in communication, learned to explain complex ideas simply, and grew as a team player and leader—skills that will undoubtedly aid my transition to Queen’s University.
+My experience with the Peer Tutoring Club inspires me to continue making an impact at Queen’s. I aim to establish a similar program, building a community where students help one another succeed academically and form connections across disciplines. By promoting collaboration and sharing knowledge, I hope to contribute to the university’s vibrant culture of learning and support. As Margaret Fuller said, “If you have knowledge, let others light their candles in it.”  I look forward to continuing this journey at Queen’s, helping others achieve their best while fostering a supportive and inclusive academic environment.
+As part of an experience where you demonstrated leadership, what challenges did you encounter? How did you respond and what did you learn about leadership from this experience? (2500 characters or less - including spaces and returns)
+One of my most formative leadership experiences was serving as head of the props department for my school’s musical. This role was both rewarding and challenging, pushing me to develop critical skills in communication, time management, and conflict resolution. Balancing responsibilities, addressing team challenges, and meeting tight deadlines made this a unique learning opportunity.
+Initially, I faced a significant challenge when team members failed to complete their assigned tasks. This jeopardized our timeline and tested my patience. Instead of dwelling on frustrations, I adapted by recruiting new members, including ensemble cast members with minor roles. This flexibility proved invaluable, as I learned to approach setbacks as opportunities to rethink solutions. Additionally, I simplified prop designs and worked on many pieces to keep the team on track. I ensured that we met deadlines without compromising quality.
+As the show approached, miscommunication between team members and leaders threatened the success of our efforts. Props were mishandled, and conflicts emerged. I stepped in to mediate, clarify expectations, and foster better collaboration. Addressing these issues head-on improved team dynamics and taught me the importance of clear communication and proactive conflict resolution.
+Balancing this leadership role with my commitments as an ensemble cast member, extracurricular activities, and a rigorous academic schedule was another challenge. I was concurrently enrolled in AP Physics, AP Computer Science, and AP Calculus AB, while also working on a research project. Late rehearsals and demanding coursework tested my resilience, but I relied on effective time management and discipline to succeed academically and fulfill my responsibilities in the production. These moments taught me the importance of prioritization and maintaining a steady focus on my goals.
+Over seven months, this experience transformed me. I developed critical skills in leadership, communication, and time management while forming lasting friendships. I discovered how to mediate conflicts, build relationships, and communicate effectively, all while juggling competing responsibilities. It showed me the power of adaptability, collaboration, and perseverance. These lessons have shaped not only my approach to leadership but also my growth as a person. Theater, as I’ve learned, is a masterclass in managing both people and projects—skills that extend far beyond the stage.
+
+Original and creative thinking are attributes we assess when considering the recipients for our major admission awards. Please attach a one-page document that demonstrates in your own way how you meet this criteria. We will not accept attachments greater than one page in length. Your application may be photocopied in black / white for review by the selection committee.
+Credit Counseling Summary/Student Status Sheet [Ontario] OR Unofficial High School Transcript [Non-Ontario] (Single PDF Only)
+November Grades [Non-Ontario] [Ontario- if not included in Credit Counseling Summary or Student Status Sheet] (Single PDF Only)
+Current Year Courses [Non-Ontario Only] (Single PDF Only)
+1 reference letter
+
+
+Drafts
+	One of my key leadership experiences was as the head of the props department for last year’s school musical. Being put in a new position showed me many of the mishaps and struggles of being a leader. I had to deal with issues ranging from miscommunication among members, people not doing their assigned tasks, and balancing my own packed schedule. Dealing with these issues helped me grow as a leader and developed immensely helpful skills. 
+	Within props, there was a huge issue at first with people not showing up to complete their assigned tasks. I was annoyed that no one was showing up to meetings and they were not helping with making props. I resorted to enlisting new people to work on props. Some of these people were even among the musical’s ensemble cast, especially those with minor background roles. I learned a valuable lesson during that time – be flexible and adapt to your situation. I also worked on the props and downscaled many props in order to fit our tight schedule. I was thankfully able to deliver high quality props in time for the show.
+	Closer to the opening night, I noticed that many props were not being used properly, and there was a great deal of miscommunication between members and leaders. I took it upon myself to call out the miscommunication and mediate the impending conflict. Props were treated with respect, the members were listening to the leaders, and the miscommunications were cleared. This event greatly sharpened my communication skills and showed me how to find solutions in very tricky problems. 
+	While managing props, I was also juggling other hats. I was also an ensemble member in the musical, balancing other extracurriculars – one of which was a research project – and keeping up my grades in grade 11 AP physics, grade 12 AP computer science, and grade 12 AP calculus AB. There were many times when I felt desperate, keeping up with 9 pm rehearsals and studying for these courses. Through a careful combination of budgeting my time and studying efficiently, I was able to excel in my classes while delivering props and performances. 
+	The school musical was a valuable time for me. I laughed, cried, and sang all in a span of 7 months. I grew not only as a leader, but as a person as well. I learned how to forge long lasting friendships, communicate effectively and assertively, and how to compromise, mediate, and manage everything from paints to time. I will always say that being in a theatre production will teach you skills that you will not learn in a classroom. (2525 characters)
+
+	In the beginning of grade 12, I co-founded Peer Tutoring Club with a group of other students. As a key executive member of Peer Tutoring Club, I led the operations team and tutored a student in grade 11 computer science. Leading Peer Tutoring Club taught me valuable skills related to teamwork, communication and cooperation – soft skills that will help me in my further pursuits in Queen’s University. My efforts in Peer Tutoring Club fostered a community of respect and tolerance in my school, connecting bright minds together, and helping those who were struggling at school. I hope to build a similar community at Queen’s and connect those who need help in their classes to those who excel in them. 
+	There were many reasons for why I co-founded the club. The main reason was to bridge the disparity between grades in our school. My school, Bloor Collegiate Institute, is one of two schools in Toronto to have the TOPS program, a program that brings sixty of the brightest students in Toronto – of which, I’m one of them – to the same classes, with a key focus in STEM. These sixty students often achieve the highest grades in the school, which causes a lot of disparity between us and the other students. As a member of the TOPS program, and by grade 12, many of my friends outside of TOPS came asking me for help in their classes. I could help them, but only to a certain degree – I could not help in subjects like the social sciences and language arts. Many of my friends in TOPS were also having the same issue. Together, we decided the best way to help everyone in our school was to establish a club that connects potential tutors to tutees. Thus, the Peer Tutoring club was born.
+	My main role was to keep operations in the Peer Tutoring Club running as smoothly as possible. I designed the platforms to register as a tutor, request a tutor, and submit volunteer hours. After I set them up, I started matching up tutees to tutors and ensuring tutees were getting proper guidance. In addition to my role as operations manager, I also tutored a student in grade 11 computer science. She started off the semester on the verge of failing the course, yet my efforts brought her grade up to an 80 percent. I explained the course material to her, helped her develop the mindset needed for computer programming, and helped her debug her assignments. It was valuable to see my contributions payoff in her learning, and I’m very happy for her growth in the subject. 
+	Throughout my experience in the Peer Tutoring Club, I learned some valuable lessons. I improved on my otherwise lackluster communication skills, effectively learning how to explain difficult concepts to people who didn’t understand them. It helped me make new friends and spread my knowledge to those who needed it. I intend on bringing a similar organization to Queen’s University, and created a Peer Tutoring Club over there as well. I want to help people not fail their classes, all while connecting people across the campus, making new friendships and supporting the flow of knowledge. (3036 characters)
+**********************************************************************************
+At the start of grade 12, I co-founded the Peer Tutoring Club with a group of students. As a key executive member, I led the operations team and tutored students. This experience taught me valuable skills in teamwork, communication, and problem-solving—skills I will bring to Queen’s University. Through the club, we fostered a community of respect and support, connecting students and helping those who struggled academically. I hope to create a similar community at Queen’s by linking students who need help with those who can provide it.
+The motivation to co-found the club stemmed from a desire to address the academic disparity at my school, Bloor Collegiate Institute. As one of two schools in Toronto with the TOPS program, Bloor attracts 60 of the brightest students in STEM each year, including me. While TOPS students often achieve the highest grades, the gap between us and other students was noticeable. By grade 12, many of my non-TOPS friends sought my help with their classes, but I couldn’t assist in all subjects, such as social sciences or language arts. My fellow TOPS students faced the same challenge. To address this, we decided to create a club to connect tutors with tutees across all subjects. That’s how Peer Tutoring Club came to life.
+As an executive member, I ensured the club ran smoothly. I designed platforms for tutor registration, tutoring requests, and volunteer hour submissions. After setting these up, I matched tutees with tutors and ensured they received effective guidance. Additionally, I personally tutored a student in grade 11 computer science. She began the semester struggling, close to failing, but with my help, her grade improved to 80 percent. I explained course material, helped her develop a programmer's mindset, and guided her through debugging assignments. Seeing her progress was deeply rewarding and reinforced the value of my efforts.
+Through this experience, I grew significantly. I improved my communication skills by learning how to explain complex concepts in simpler terms and developed strong interpersonal skills. The club allowed me to build friendships, share knowledge, and create a positive impact. At Queen’s, I plan to establish a similar organization, fostering academic success, building connections, and supporting the flow of knowledge across campus.
+If you have knowledge, let others light their candles in it. - Margaret Fuller
+
+One of my key leadership experiences was serving as the head of the props department for last year’s school musical. This position brought many challenges, from miscommunication among team members and uncompleted tasks to balancing my own packed schedule. Overcoming these obstacles allowed me to grow as a leader and develop essential skills.
+One major challenge was team members not showing up to complete their assigned tasks. Frustrated by the lack of participation, I decided to adapt. I recruited new team members, including some from the musical’s ensemble cast who had minor roles. Additionally, I personally worked on several props and simplified designs to meet our tight schedule. By staying flexible and resourceful, I ensured that we delivered high-quality props on time for the show.
+As the performance approached, I noticed props were being misused, and miscommunication was causing friction among team members and leaders. Recognizing the problem, I stepped in to mediate conflicts and clarify expectations. By addressing these issues directly, I restored order, ensured props were treated properly, and improved collaboration within the team. This experience strengthened my communication skills and taught me the importance of resolving conflicts proactively.
+Balancing my role in props with other responsibilities added another layer of complexity. I was also an ensemble member in the musical, involved in a research project, and enrolled in demanding courses, including grade 11 AP physics, grade 12 AP computer science, and grade 12 AP calculus AB. Managing late-night rehearsals alongside these commitments was overwhelming at times, but through efficient time management and disciplined study habits, I excelled academically while fulfilling my roles in the musical.
+The school musical was a transformative experience for me. Over seven months, I laughed, cried, and grew immensely. I developed critical skills in leadership, communication, and time management, while also forging lasting friendships. Theater taught me how to collaborate, mediate, and handle responsibilities creatively and effectively—lessons that cannot be learned in a classroom. This experience remains one of the most rewarding and educational periods of my life.
+
+Girl's E-Mentorship scholarship application:
+During GEMinar 1, we explored the importance of building connections. Can you share an example of a meaningful connection you’ve formed since starting the GEM program, how has it positively impacted your goals or perspective, and the strategies you’ve used to maintain that connection? Word Count: 350 words
+According to a LinkedIn article by Sarah Felice, 70–80% of successful opportunities arise through networking and connecting with like-minded professionals. This statistic truly resonated with me during GEMinar 1, where we explored the value of building meaningful connections. The GEM program gave me the confidence and foundational tools to begin forming professional relationships that have already made a real impact on my journey.
+I made many meaningful connections during my application process for the Schulich Leader Scholarship. Knowing how competitive this scholarship is, I wanted to strengthen my application by learning directly from previous recipients. Through a friend currently studying at the University of Waterloo, I was introduced to two incredible Schulich Leaders: Pari Vansjalia, a Software Engineering student, and Noah Sonser, who studies Mathematical Physics. Both of them generously shared their insights and provided thoughtful, actionable feedback on my application. Their mentorship helped me refine my responses and better communicate my story.
+Although I have not yet heard back from the Schulich committee, I am genuinely proud of my application, largely thanks to the help of Pari and Noah. Beyond the scholarship process, our connection has grown into an ongoing mentorship. We primarily stay in touch through LinkedIn, where they often share opportunities and tips. For instance, Pari recently recommended an RBC internship program open to high school students. Not only did she guide me through the application, but she also reviewed my resume and cover letter, giving me advice that made my submission stronger and more polished.
+The GEM curriculum and networking workshops were essential in helping me develop the skills to reach out to professionals, ask thoughtful questions, and maintain those relationships. I’ve learned that meaningful connections aren’t just about asking for help—they’re about mutual growth, shared interests, and staying engaged. Thanks to GEM, I now approach networking with more confidence and purpose, and I know these skills will continue to benefit me in the future.
+Goal setting is an important skill for personal and professional growth. Reflect on a SMART goal you set at the beginning of GEM or one you’ve developed during the program. What was/is your SMART goal, and what steps have you taken to accomplish it? How will you continue to work towards this goal or develop related skills after completing the GEM Mentorship Program? Word count: 350 max
+In Grade 12, I faced one of my biggest challenges—balancing university applications with my academic workload. Since I was applying primarily to engineering programs, I had to complete several supplemental essays in addition to the standard application forms. Many deadlines also coincided with exam season, forcing me to manage my time wisely and make strategic decisions. To stay on track and reduce stress, I set a SMART goal: to submit all university application components—essays, supplemental forms, and financial aid documents—on time and with confidence.
+I made my goal specific by committing to complete every requirement for each university program. It was measurable through a detailed checklist that tracked submission statuses and progress on each task. To make it achievable, I dedicated a minimum of five hours each week to researching programs, brainstorming, writing, and editing. The goal was relevant to my long-term aspirations in data science and software development, as gaining admission to strong engineering programs was key. Finally, I set a time-bound target to complete each application at least one week before its official deadline, allowing extra time for review and edits.
+To manage everything effectively, I created a comprehensive Google Sheet that included each university’s requirements, links to application portals, and Google Docs for essay drafts. I also started bullet journaling, which helped me set structured daily goals, prioritize tasks, and maintain motivation. This method became essential for balancing my schoolwork and application workload. Despite the intensity of exam season, I submitted all applications a week before their deadlines and finished the semester with a 98 average.
+This experience taught me how powerful goal setting can be when combined with consistent effort and strong organization. I’ve continued applying these strategies to scholarship applications and end-of-year projects. As I prepare for university, I plan to further refine my time management, using bullet journaling and digital tools to balance coursework, internships, and personal development. The SMART goal I set during this process not only helped me succeed in the moment but also equipped me with skills I’ll carry into the next chapter of my academic and professional life.
+How have you grown this year through direct access to a Mentor, the GEM Tool Kit, the GEM community, and events (e.g. GEMinars, Enrichment Opportunities, Optional Event, etc.)?Word count: 350 max
+Girls E-Mentorship (GEM) has been instrumental in my personal and academic growth, providing me with mentorship, toolkits, and transformative experiences. Through GEM, I’ve developed confidence, strengthened my identity as a woman in STEM, and gained independence in navigating new environments.
+One of the most impactful aspects of GEM has been my relationship with my mentor. She consistently encouraged me to recognize my strengths, push past self-doubt, and embrace challenges. Her guidance has improved my self-esteem, helping me see my potential in ways I hadn’t before. Whether preparing for university applications, setting career goals, or learning to advocate for myself, her support has empowered me to pursue my ambitions with confidence.
+The GEM Tool Kit has also played a vital role in shaping my identity. One session in particular focused on case studies featuring girls juggling multiple interests and commitments. As I reflected on these scenarios, I began to see parallels in my own life—balancing academics, extracurriculars, and future planning. This activity pushed me to analyze my priorities and recognize the value of setting boundaries and being kind to myself. It gave me practical tools to manage pressure and helped me see that struggling doesn’t make me any less capable—it makes me human.
+Traveling to McMaster University for a campus tour was another defining moment in my journey toward independence. Initially, the thought of traveling alone was daunting. However, the experience proved that I’m capable of navigating unfamiliar places and adapting to new situations. It solidified my confidence in taking on new challenges, whether that means moving away for university or seizing opportunities outside my comfort zone.
+GEM has profoundly shaped my self-esteem, identity, and independence. I’m deeply grateful for the mentorship, resources, and experiences that have prepared me for the next chapter. As I transition into university, I will carry these lessons forward, embracing every opportunity with confidence and resilience.
+
+Describe a challenge or a barrier you have faced. How have you worked to overcome it? Word count: 350 max
+When my grandmother was diagnosed with cancer, my mother made the difficult decision to fly to India to care for her, leaving me and my dad in Canada. This was the first time my mom had been away for an extended period, and her absence changed the dynamics of our household. My dad and I had to quickly adjust to new responsibilities while dealing with the emotional weight of my grandmother’s illness. It was a challenging time, but overcoming it helped me develop resilience, independence, and a deeper understanding of the importance of family support.
+At first, the transition was overwhelming. My mom had always managed the household, and without her, I suddenly had to take on new responsibilities. Simple things like cooking meals, keeping track of schedules, and organizing tasks became significant challenges. At the same time, I was worried about my grandmother’s health and my mom’s well-being. I struggled to focus on school while navigating these changes, and the distance made it hard to support my mom the way I wanted to.
+To cope, I developed new skills and strategies. I learned to manage time more efficiently, balancing school and household duties. My dad and I worked as a team, dividing tasks and supporting each other. I also made an effort to communicate with my mom regularly despite the time difference, offering her emotional support and reassurance. Instead of feeling helpless, I focused on what I could control—helping at home, staying on top of my studies, and maintaining a sense of stability.
+This experience taught me resilience and adaptability. I learned to take responsibility in difficult situations, remain emotionally strong, and appreciate all the unseen work my mom had done for us. It also deepened my understanding of family support and the sacrifices made for loved ones. Moving forward, I know I have the strength and initiative to face uncertainty and support those around me—skills I will carry with me throughout my life.
+How would a GEM Scholarship assist you in achieving your academic and/or professional goals? Word count: 350 max
+I plan to pursue engineering, one of the most expensive undergraduate degrees in Canada, with total costs ranging from $94K to $170K over five years. While OSAP covers about half, I still need to pay approximately $12K per year through personal savings or scholarships. To meet this shortfall, I currently work a part-time job, requiring about 700 hours annually—or 14 hours per week. Balancing this workload with school is challenging and limits my ability to participate in extracurriculars or build a professional network.
+My family’s financial situation limits their ability to support my education. My maternal grandmother is currently battling lymphoma, and a significant portion of our income goes toward her treatment. As a result, I’ve had to take on part-time work to help cover my expenses. Although I plan to participate in Co-Op during university—which may provide around $60K in earnings—after taxes, I would only net about $46K. These funds would be better allocated toward repaying OSAP loans rather than covering ongoing tuition, underscoring the need for additional financial support.
+Without assistance, I’ll need to continue working long hours, which could affect my academic performance. However, receiving the GEM Scholarship would reduce my annual costs to around $10K, allowing me to cut back my work hours to about 10 per week—a much more manageable load.
+This scholarship would allow me to focus more fully on my engineering studies, join meaningful extracurricular activities, and gain experience relevant to my future career. It would relieve the constant financial pressure and help me take full advantage of university opportunities.  I’m truly grateful for this opportunity and the support GEM provides.
+
+
+Schulich Leader Scholarship Application:
+Step 1: Contact Information ✅
+First Name: Aadhya
+Preferred First Name: Aadhya
+Last Name: Anand
+Date of Birth: 28/02/2007
+Email Address: aadhya.anand@gmail.com
+Confirm Email Address: aadhya.anand@gmail.com
+Telephone Number: 4372354834
+Home Address: 901-115 Omni Drive
+City: Scarborough
+Province: Ontario
+Postal Code: M1P5B4
+Instagram
+Facebook
+Twitter
+Name of High School/CEGEP: Bloor Collegiate Institute
+Name of School Nominator: Oscar Stam
+University application reference number (i.e. OUAC number)
+How did you hear about Schulich Leader Scholarships?: I found out myself
+Step 2: Referee Information ✅
+The contact information collected in this portion of the form will be used to contact your selected Referees. Upon completing this application, each Referee will be emailed with a link to upload and submit their reference letter. All letters of reference and scholarship applications must be completed and received by the February 19, 2025 deadline.
+Reference letters should be no longer than one page and addressed to the Schulich Leader Scholarships Selection Committee. We recommend following up with your referees to ensure they submit their letters by the February 19, 2025 deadline.
+Referee 1
+First Name: David
+Last Name: Mandelzys 
+Email Address: david.mandelzys@tdsb.on.ca
+Phone Number: (416) 393-1420
+Referee 2
+First Name: Tom
+Last Name: Tsilfidis
+Email Address: tom.tsilfidis@tdsb.on.ca
+Phone Number: (416) 393-1420
+
+
+Step 3: Universities✅
+Select the program(s) you have enrolled in
+Engineering
+Science, Technology, Mathematics
+Area of Focus: Computer Science, Computer Engineering, Software Engineering, Physics
+I am applying to an eligible STEM program at one of the 20 partner universities. Visit schulichleaders.com/universities to view the complete list. 
+Yes
+No
+I intend to pursue a career in technology, engineering, entrepreneurship, business enterprise, or applied scientific research.
+Yes
+No
+I am focused on activism (environmental/political/social).
+Yes
+No
+I intend to become a practicing physician and/or medical researcher (e.g. Doctor, Dentist, Nurse, Psychologist, Pharmacist, Optometrist, Veterinarian etc.)
+Yes
+No
+I intend to become a Professor and conduct theoretical research.
+Yes
+No
+Select the partner universities below where you are applying to receive the scholarship. The universities you select will review your application for consideration for the award.
+University of British Columbia
+Simon Fraser University
+University of Victoria
+University of Alberta
+University of Calgary
+University of Manitoba
+University of Saskatchewan
+McMaster University
+University of Ottawa
+Queen's University
+University of Toronto
+University of Waterloo
+Western University
+York University
+McGill University
+Laval University
+Dalhousie University
+Memorial University
+University of New Brunswick
+Université de Montréal / Polytechnique Montréal 
+
+
+
+Step 4: Achievements ⛑️
+Summarize in the space below three of your most important achievements (academic or other)
+First Achievement (50 words maximum): 
+I led the props department for Bloor CI’s and Central Technical School’s joint musical, creating over 100 props in 6 months using scavenged supplies and actor donations on a $150 budget. My leadership and resourcefulness contributed to the musical’s success, uniting both school communities and showcasing creativity under tight constraints.
+Second Achievement (50 words maximum):
+I work at an afterschool tutoring center, where paper records often lead to overlooked students. In the summer of 2024, I learned various database tools (such as SQL and PHP) to digitize 1,000+ records, improving tracking. The system enhanced learning outcomes, with one student’s math grade rising by 10%. 
+Third Achievement (50 words maximum):
+In September 2021, I took Saturday International Language classes to learn my native language, Malayalam. This class taught me the language and improved my relationship with my elderly grandparents. I can currently read news articles, watch movies, and have simple conversations with my parents and extended family in India. 
+Step 5: What are your career aspirations ⛑️
+What are your career aspirations 10 years from now and how do you plan to get there? (Limit 50 words):
+To have a strong data analytics, I need a strong and challenging education in data science, providing hands-on learning and impactful projects. I’m seeking a degree focused on data analysis with experiential learning components that will prepare me to create solutions to problems that impact the world.
+Step 6: Essays ⛑️
+What are you passionate about? (250 words maximum):
+I am a creative and dedicated person. My creativity developed my talent for problem-solving, resulting in a desire to help people and create solutions to their problems. In a desire to help more people, I have taught myself complex concepts in STEM so I can help those around me.
+During the pandemic, I realized my skills and interest in programming. I love the problem-solving aspects of programming, where I have to take a complex issue and break it down into a simple solution. This skill became very useful to me, even in some of the strangest circumstances. For example, in the tutoring centre where I work, I built a database to record and track student data, greatly improving students' learning efficiency.
+Since grade 3, I’ve been fascinated by how the universe behaves in extreme conditions, leading me to study general relativity. This interest led me to my research in the Math Mentorship Program at the University of Toronto, where I am currently writing a research paper on finding the shortest path in a space with non-smooth gravity. This research has applications in fields such as navigation, telecommunications, and electrical engineering.
+My skills and innate passion for helping people inspire me to pursue a career in a field that has the greatest impact on the world. The Schulich Leader Scholarship will help me explore my interests further through regional networking events with leading employers, exceptional educational opportunities, and dedicated mentorship from my chosen university.
+How do you demonstrate an entrepreneurial mindset (including leadership, charisma and creativity?) (250 words maximum):
+According to Saras D. Sarasvathy, an entrepreneurship professor at the University of Virginia, entrepreneurs thrive by embracing effectual thinking—navigating uncertainty to create opportunities. I embody this mindset through initiatives that solve pressing challenges in my school and community. 
+When a friend shared his struggle to afford transit tickets due to his family’s financial situation, I was inspired to create a program offering TTC tickets to low-income students outside the school district. I prioritized lower-income students who needed to bike or walk for more than 10 minutes to reach school. Through creative problem-solving and patience, I secured funding and established eligibility criteria. To date, the initiative has improved the attendance of 50 students by reducing their financial burden.
+I co-founded the Peer Tutoring Club to bridge academic disparities within my school community. I developed platforms for tutor registration, session requests, and volunteer hour submissions. I also tutored a student in grade 11 computer science, improving her average by 30%. As a result, I became more effective in communication, learned to explain complex ideas simply, and grew as a team player and leader.
+In my neighbourhood, I addressed another challenge by helping seniors navigate technology. I set up a system where families could call me to teach their elderly relatives how to use their technology. So far, I’ve assisted 18 seniors, earning their trust through patience and clear communication.
+These experiences have refined my entrepreneurial traits, teaching me to lead creatively, solve problems effectively, and inspire confidence in others. 
+Why are you an ideal candidate for this award? (250 words maximum):
+In the anime “Naruto”, the titular protagonist repeatedly overcomes rejection to achieve his dream of becoming the leader of his village. I’ve always idolized Naruto, not only for his determination but also for his compassion and desire to help his village. I have also encountered many obstacles in my high school journey, but I turned them into opportunities to improve myself and the people around me. My dedication, creativity and helpful demeanour resulted in my nomination for the Schulich Leader Scholarship.
+
+
+As a member of the prestigious TOPS program, I was among 60 students selected for advanced science and mathematics education. The rigorous pace of AP courses was challenging, but I adapted by developing strategies for success. Teaching others strengthened my understanding and led me to establish the Peer Tutoring Club, where I helped fellow students navigate difficult STEM concepts.
+
+
+Beyond academics, I have sought opportunities to lead and innovate. I worked with a team to design and present a research paper on air pollution and melanoma, which required technical expertise, cooperation, and effective communication. In another project, I am applying advanced mathematics to model the universe's large-scale structure. These experiences required technical and academic expertise, as well as creativity, collaboration, and resilience—skills essential for STEM innovation.
+
+
+Resilience, teamwork, and problem-solving are critical skills for success in STEM. The Schulich Leader Scholarship will connect me to top opportunities and foster innovation in math, computer science, and engineering, inspiring me to apply it to solve real-world issues.
+Optional: An essay of up to 250 words outlining extenuating circumstances that may put you at a financial disadvantage or that you feel are relevant to the consideration of your application:
+I want to pursue post-secondary education, but recent financial difficulties have challenged my family’s ability to fund it. In 2023, my mother was affected by widespread tech layoffs, forcing her to search for a new job. Adding even more stress, my grandmother was diagnosed with cancer. This meant that my mother had to dedicate most of her reduced income to her treatment instead of my education, moving all the way to India to take care of her. My father, who runs a small computer repair business, dedicates most of his earnings to his aging parents, who recently had to go through critical knee surgeries. With these financial strains, my family cannot afford my university expenses.
+I began working two part-time jobs to alleviate my parents' stress and cover personal and school-related expenses. This inevitably reduced the time I could dedicate to academics and extracurricular activities. Despite this, I remain committed to my education, maintaining strong academic performance and actively seeking scholarships and financial aid. My goal is to become a data analyst, but without financial assistance, affording university will be a significant challenge.
+While these financial hardships have tested me, they have also strengthened my determination to succeed. With financial support from the Schulich Leader Scholarship, I can fully dedicate myself to my studies and professional growth, making the most of my university experience and contributing meaningfully to my field.
+Optional: We’re looking for people who are going to make a dent in the universe, how do you aspire to do that? Create a short one-minute video and share the URL.: 
+Script: Data shapes company strategies, government policies, AI, and scientific progress. Yet the question remains, how can we use data to help people? As an aspiring data analyst and software developer, I aim to use data science and machine learning to help as many people as possible. While researching air pollution and melanoma at the University of Toronto, I realized the biggest hurdle is finding the most accurate datasets with the right information for meaningful analysis. Without high-quality data, we struggle to uncover actionable insights. I aspire to lead a team that collects and analyzes such data, applying results to real-world solutions at companies like Google or McKinsey. By improving data accessibility and refining analytical methods, we can make increasingly informed decisions, which will drive positive change in the world.
+Other Stuff
+Transcript
+Headshot
+
+
+AADHYA ANAND
+Toronto, Canada | +1 (437) 235 4834 | aadhya.anand@gmail.com
+PROFESSIONAL SUMMARY
+Aspiring Machine Learning Software Engineer with experience in Python, data analysis, and software development. Skilled in building ML models, data pipelines, and automation tools, with research and internship experience in large datasets, mathematical modeling, and algorithm optimization.
+EDUCATION
+University of Waterloo – B.A.Sc. Computer Engineering (Co-op), 2025–2030
+Bloor Collegiate Institute (TOPS Program) – OSSD, 2021–2025
+Certifications: 
+CS50p – Introduction to Programming with Python (2024)
+Complete Guide to C++ Programming Foundations (2025)
+TECHNICAL SKILLS
+Languages: Python, JavaScript, PHP, SQL, HTML/CSS, R, MATLAB
+ML & Data: scikit-learn, pandas, NumPy, matplotlib, TensorFlow (beginner) 
+Databases: SQL, NoSQL, Microsoft Access 
+Tools: Git, Bash, Unix, Salesforce 
+Concepts: Data Pre-processing, Feature Engineering, OOP, Statistical Analysis
+EXPERIENCE
+Student Researcher – University of Toronto (Jan–Jun 2025)
+Developed mathematical models for geometric distance functions on arbitrary-dimensional surfaces with applications in topology and general relativity.
+Processed and analyzed complex datasets in Python, applying advanced mathematical and computational methods.
+Authored an academic paper on distance metrics in curved spacetime.
+Salesforce/Support Developer (Intern) – Proton Learning Centre (Jun 2022–Present)
+Built custom Salesforce applications to digitize and manage over 1,000 student records, improving operational efficiency.
+Developed and maintained internal web tools in PHP, SQL, and HTML/CSS for reporting and data management.
+Automated reporting workflows for faculty using Python and database queries.
+High School Investigator – Youreka Toronto (Feb–May 2024)
+Analyzed the relationship between air pollution and melanoma incidence using R on large-scale datasets.
+Applied statistical methods and data visualization to identify trends across three datasets.
+Authored and presented scientific findings at symposiums.
+Administrative Assistant – Royal Tech Solutions (Mar 2020–Present)
+Provided technical troubleshooting and maintenance for client systems.
+Managed synchronized client data for 500+ accounts across multiple platforms.
+PROJECTS
+Manifold Learning for Spotify (Python) – ML model using UMAP & Spotify track data
+Pulsar Classification System (Python) – ML model using scikit-learn & pandas.
+Ninja Blocks (JavaScript) – Physics-based game with p5.js & Matter.js.
+Wordle Clone (Python) – ANSI feedback, input validation, progress tracking.
+Knights of the Godblaster (Python) – OOP RPG with procedural generation.
+LANGUAGES
+English – Fluent
+French – Working Proficiency
+Malayalam – Working Proficiency
+
+Aadhya Anand
+Toronto, Canada 
++1 (437) 235 4834 
+aadhya.anand@gmail.com
+
+
+EDUCATION
+Bloor Collegiate Institute (TOPS)  — OSSD
+2021 – PRESENT (Expected completion: June 2025)
+Girls E-Mentorship — Mentee
+2024-2025
+CERTIFICATIONS
+CS50p  (2024)
+AWARDS
+Schulich Leader Scholarship Nominee (2025)
+LANGUAGES
+English (Fluent)
+French (working proficiency) 
+Malayalam (working proficiency)
+
+EXPERIENCE
+University of Toronto— Researcher
+January 2025 - Present
+Currently writing a research paper on the distance between two points on any dimensional surface
+Learning complex mathematical concepts such as topology, Riemannian and Lorentzian geometry, and special relativity
+Collaborating with a Ph.D. student and another High School student
+Youreka Toronto— High School Investigator
+February 2024 - May 2024
+Investigated the connections between environmental changes and human health under the guidance of University of Toronto undergraduate students
+Used the scientific method to analyze research papers and conduct research
+Used R to analyze datasets and draw scientific conclusions 
+Wrote research papers that were published in annual symposiums
+Competed with other Youreka regional teams under the Toronto regional team
+Proton Learning Centre — Math, English and Science Tutor
+June 2022 - PRESENT
+Tutor elementary and middle school students in Math, Science, and English
+Teenage Tutors — Tutor
+March 2024 - PRESENT
+Tutor elementary, junior high, and high school students online from grades 3-12 in Math, Physics, and Chemistry
+Kumon Math and Reading Centre — Centre Assistant
+August 2023 - February 2024
+Assisted students in Primary Instruction (PI) and Early Learning (EL) with math and reading classwork
+Marked the students’ homework
+Ensured students were focused in class
+
+Aadhya Anand
+Toronto, Canada 
++1 (437) 235 4834 
+aadhya.anand@gmail.com
+
+
+EDUCATION
+Bloor Collegiate Institute (TOPS)  — OSSD
+2021 – PRESENT (Expected completion: June 2025)
+Girls E-Mentorship — Mentee
+2024-2025
+CERTIFICATIONS
+CS50p  (2024)
+AWARDS
+Schulich Leader Scholarship Nominee (2025)
+LANGUAGES
+English (Fluent)
+French (working proficiency) 
+Malayalam (working proficiency)
+
+EXPERIENCE
+Proton Learning Centre—Salesforce/Support Developer (Intern)
+June 2022 - PRESENT
+Digitized over 1000 student records, using custom Salesforce apps and Microsoft Access, and improving efficiency in the centre.
+Built and maintained the internal intranet/website using PHP, SQL, and HTML/CSS.
+Collaborated with faculty to implement automated reporting tools, improving decision-making.
+University of Toronto—Student Researcher
+January 2025 - PRESENT
+Investigated geometric distance functions on arbitrary-dimensional surfaces for topology and mathematical physics advancements.
+Studied advanced topics (topology, Riemannian geometry, Lorentzian geometry, special relativity) to develop theoretical models.
+Currently authoring a research paper on distance metrics in curved spacetime with potential applications in general relativity.
+Royal Tech Solutions—Administrative Assistant
+March 2020 - PRESENT
+Provided technical support for system maintenance and computer repairs.
+Managed client subscriptions across multiple platforms, ensuring data synchronization for 500 accounts.
+Youreka Toronto—High School Investigator
+February 2024 - May 2024
+Researched the impact of air pollution on melanoma rates in the US
+Analyzed large datasets using R to extract trends from 3 datasets.
+Authored scientific papers and presented at symposiums.
+PROJECTS
+Pulsar Classification System (Python)—Link
+A machine-learning model to classify pulsars using astronomical data
+Used pandas, scikit-learn, and data visualization tools.
+Ninja Blocks (JavaScript)—Link 
+A physics-based game with p5.js and Matter.js, simulating realistic object interactions.
+Wordle Clone (Python)—Link 
+A Wordle clone with ANSI feedback, input validation, and a UI for tracking game progress.
+Knights of the Godblaster (Python)—Link 
+A D&D-inspired text RPG with OOP mechanics, combat systems, and procedural generation.
+
+Aadhya Anand
+Toronto, Canada 
++1 (437) 235 4834 
+aadhya.anand@gmail.com
+
+
+EDUCATION
+University of Waterloo  — B.ASc Computer Engineering
+2025 – 2030
+Bloor Collegiate Institute (TOPS)  — OSSD
+2021 – 2025
+Girls E-Mentorship — Mentee
+2024-2025
+CERTIFICATIONS
+CS50p  (2024)
+AWARDS
+Schulich Leader Scholarship Nominee (2025)
+LANGUAGES
+English (Fluent)
+French (working proficiency) 
+Malayalam (working proficiency)
+
+EXPERIENCE
+Proton Learning Centre—Salesforce/Support Developer (Intern)
+June 2022 - PRESENT
+Digitized over 1000 student records, using custom Salesforce apps and Microsoft Access, and improving efficiency in the centre.
+Built and maintained the internal intranet/website using PHP, SQL, and HTML/CSS.
+Collaborated with faculty to implement automated reporting tools, improving decision-making.
+University of Toronto—Student Researcher
+January 2025 - June 2025
+Investigated geometric distance functions on arbitrary-dimensional surfaces for topology and mathematical physics advancements.
+Studied advanced topics (topology, Riemannian geometry, Lorentzian geometry, special relativity) to develop theoretical models.
+Currently authoring a research paper on distance metrics in curved spacetime with potential applications in general relativity.
+Royal Tech Solutions—Administrative Assistant
+March 2020 - PRESENT
+Provided technical support for system maintenance and computer repairs.
+Managed client subscriptions across multiple platforms, ensuring data synchronization for 500 accounts.
+Youreka Toronto—High School Investigator
+February 2024 - May 2024
+Researched the impact of air pollution on melanoma rates in the US
+Analyzed large datasets using R to extract trends from 3 datasets.
+Authored scientific papers and presented at symposiums.
+PROJECTS
+Pulsar Classification System (Python)—Link
+A machine-learning model to classify pulsars using astronomical data
+Used pandas, scikit-learn, and data visualization tools.
+Ninja Blocks (JavaScript)—Link 
+A physics-based game with p5.js and Matter.js, simulating realistic object interactions.
+Wordle Clone (Python)—Link 
+A Wordle clone with ANSI feedback, input validation, and a UI for tracking game progress.
+Knights of the Godblaster (Python)—Link 
+A D&D-inspired text RPG with OOP mechanics, combat systems, and procedural generation.
+
+PROJECTS
+Pulsar Classification System
+Python
+Developed a Pulsar Classification System using data science principles in Python.
+Applied machine learning techniques to classify pulsars based on astronomical data.
+Utilized Jupyter Notebook for research documentation and iterative model improvements.
+Implemented data preprocessing, feature selection, and model training for accurate predictions.
+Collaborated with a mentor to enhance understanding of astrophysics and computational methods.
+Gained hands-on experience in Python, pandas, scikit-learn, and data visualization.
+Ninja Blocks
+Javascript
+Developed an interactive physics-based game using JavaScript, p5.js, and Matter.js.
+Designed and implemented object behaviors with collision physics and real-time interactions.
+Utilized HTML, CSS, and JavaScript to create a responsive web-based application.
+Integrated physics engines (Matter.js) to simulate realistic object movements.
+Enhanced user engagement with dynamic visual effects and interactive elements.
+Used GitHub for version control and collaborative development, managing code updates and tracking project progress.
+Fake Metacritic
+Java
+Developed a Java-based media rating platform inspired by Metacritic.
+Implemented object-oriented programming (OOP) principles to manage books, movies, and other media.
+Created a structured media library system for storing and retrieving reviews.
+Used Java I/O and data structures to handle and display media ratings efficiently.
+Designed the system to support user-generated content and review aggregation.
+Used GitHub for version control and collaborative development with another developer.
+Student database
+SQL/PHP
+Designed and implemented a relational database for Proton Learning Centre to store and manage student information.
+Created structured SQL tables for student records, including names, grades, and courses.
+Developed queries using SQL (MySQL/PostgreSQL/SQLite) for efficient data retrieval and management.
+Implemented CRUD operations (Create, Read, Update, Delete) for seamless data modification.
+Optimized database performance with indexes, foreign keys, and normalization techniques.
+Wordle Clone
+Python
+Developed a Python Wordle clone with ANSI color-coded feedback (green/yellow/black) for letter correctness, input validation, and a 5-letter word bank for authentic gameplay.
+Built an interactive UI featuring dynamic guess tracking, remaining attempts, and a keyboard visualizing used letters’ statuses for enhanced user experience.
+Implemented game statistics to track win distribution and session history, alongside a help system with in-game tutorials and input safeguards.
+Structured modular code using functions for core logic (guess validation, UI updates) and forced input handling, ensuring maintainability and scalability.
+Knights of the Godblaster
+Python
+Developed a Python text RPG with D&D-inspired mechanics, including character creation, turn-based combat, and object-oriented systems for weapons/items using classes and inheritance.
+Built modular game systems to enhance replayability for dice-rolling (D4–D20), dynamic combat (initiative, modifiers), and procedural loot/room generation.
+Designed interactive UI elements with input validation, weight-based inventory management, and choice-driven narrative featuring ASCII maps and multiple endings.
+Delivered a polished project with debugging, optimization, and full documentation, showcasing end-to-end development and user experience focus.
+
+One of the coolest things I’ve ever built is a machine learning model that reimagines how music recommendations are made—not by relying on typical user history or genre classification, but by using manifold learning to understand the shape of music itself. This project began with a question that stuck with me: What if we could recommend songs not by what people like, but by how the music is mathematically structured? That idea led me to build a manifold learning system that analyzes songs as points in high-dimensional space, mapping their audio features onto a lower-dimensional manifold where patterns in musical "vibe" or "texture" naturally emerge.
+
+I started with audio feature vectors from Spotify’s API—tempo, energy, acousticness, valence, and more. Then, using UMAP (Uniform Manifold Approximation and Projection), I reduced these dimensions to visualize and cluster similar songs based on intrinsic structure, not metadata. The result was a kind of musical “galaxy,” where tracks are grouped in surprising but intuitive ways—ambient jazz next to mellow lo-fi, or high-tempo classical pieces aligning with certain EDM rhythms. What made it cooler was building a recommendation engine on top of that map: input a song, and it finds others nearby on the manifold, even if they’re from entirely different genres. The recommendations were eerily good.
+
+Why did I build it? I’ve always been fascinated by the intersection of math and creativity—this project felt like art meets algorithm. It was also born from a frustration: I love discovering music, but traditional recommenders kept boxing me into the same genres. I wanted to build something that understood music like a curious listener, not a marketer.
+
+This project reflects who I am as a builder—I’m someone who loves bringing complex math to life through elegant, practical tools. I’m drawn to projects that ask "what if?" and follow that curiosity into deep dives, even if the path isn’t clear at first. I thrive on blending technical depth with playful exploration. Hack the North’s spirit of building BIG resonates with that completely. For me, this project wasn’t just about recommendations—it was about giving people new ways to explore creativity, powered by an algorithm that sees beauty in the math behind the music.
+
+I also finished this course at linkedin learning: https://www.linkedin.com/learning/certificates/2599af0ad4ca302726a6c2118b3a4d9baac9ede9b0f1e1f93940f6b9ccdedcf3?u=85044065
+
+As a note, please look through everything carefully
+
+This is the json format i want you to follow:
+
+{
+  "personal_info": {
+    "name": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "linkedin": "",
+    "github": "",
+    "portfolio": ""
+  },
+  "summary": "",
+  "experience": [
+    {
+      "company": "",
+      "position": "",
+      "location": "",
+      "start_date": "",
+      "end_date": "",
+      "current_job": false,
+      "achievements": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "",
+      "degree": "",
+      "major": "",
+      "location": "",
+      "start_date": "",
+      "end_date": "",
+      "gpa": "",
+      "honors": [
+        ""
+      ]
+    }
+  ],
+  "skills": {
+    "technical": [
+      "",
+      ""
+    ],
+    "tools": [
+      "",
+      ""
+    ],
+    "soft": [
+      "",
+      ""
+    ]
+  },
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "technologies": [
+        "",
+        ""
+      ],
+      "link": "",
+      "date": ""
+    }
+  ],
+  "certifications": [
+    {
+      "name": "",
+      "issuer": "",
+      "date": "",
+      "credential_id": ""
+    }
+  ],
+  "languages": [
+    {
+      "name": "",
+      "proficiency": ""
+    }
+  ],
+  "achievements": [
+    {
+      "title": "",
+      "date": "",
+      "description": ""
+    }
+  ]
+}
+
+for volunteer experience, keep it in a seperate section

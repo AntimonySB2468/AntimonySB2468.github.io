@@ -1,0 +1,249 @@
+{
+  "personal_info": {
+    "name": "Aadhya Anand",
+    "email": "aadhya.anand@gmail.com",
+    "phone": "4372354834",
+    "address line 1": "902-115 Omni Drive",
+    "city": "Toronto",
+    "province": "Ontario",
+    "country": "Canada",
+    "linkedin": "https://www.linkedin.com/in/aadhya-anand/",
+    "github": "https://github.com/astr-droid",
+    "portfolio": "https://aanand.uwce.ca/"
+  },
+  "summary": "",
+  "experience": [
+    {
+      "company": "University of Toronto",
+      "position": "Student Researcher",
+      "start_date": "01-25",
+      "end_date": "05-25",
+      "current_job": false,
+      "achievements": [
+        "Developed mathematical models for geometric distance functions on arbitrary-dimensional surfaces with applications in topology and general relativity.",
+        "Processed and analyzed a dataset of Spotify tracks in Python, applying manifold learning to recommend tracks."
+      ]
+    },{
+      "company": "University of Toronto",
+      "position": "Administrative and Support Intern",
+      "start_date": "05-24",
+      "end_date": "05-25",
+      "current_job": false,
+      "achievements": [
+        "Built custom Salesforce applications to digitize and manage over 1,000 student records, improving operational efficiency.",
+        "Developed and maintained internal web tools in PHP, SQL, and HTML/CSS for reporting and data management.",
+        "Automated reporting workflows for faculty using Python and database queries."
+      ]
+    },{
+      "company": "Youreka Toronto",
+      "position": "High School Investigator",
+      "start_date": "05-24",
+      "end_date": "05-25",
+      "current_job": false,
+      "achievements": [
+        "Analyzed the relationship between air pollution and melanoma incidence using R on large-scale datasets.",
+        "Applied statistical methods and data visualization to identify trends across three datasets.",
+        "Authored and presented scientific findings at symposiums."
+      ]
+    },{
+      "company": "Royal Tech Solutions",
+      "position": "Administrative Assistant",
+      "start_date": "03-20",
+      "end_date": "08-25",
+      "current_job": false,
+      "achievements": [
+        "Provided technical troubleshooting and maintenance for client systems.",
+        "Managed synchronized client data for 500+ accounts across multiple platforms."
+      ]
+    },{
+      "company": "Great Lunar Expedition for Everyone (GLEE)",
+      "position": "LunaSat Programmer & STEM Ambassador",
+      "start_date": "06-22",
+      "end_date": "",
+      "current_job": true,
+      "achievements": [
+        "Programmed affordable lunar landers (LunaSats) for NASA-sponsored moon mission with student team",
+        "Developed sensor data collection protocols for lunar surface experiments",
+        "Led STEM outreach programs educating 200+ students about space technology"
+      ]
+    },{
+      "company": "Bloor CI",
+      "position": "Props Department Lead & Ensemble Member",
+      "start_date": "10-23",
+      "end_date": "04-24",
+      "current_job": false,
+      "achievements": [
+        "Managed 50+ props for Mean Girls musical production with 100% accuracy during performances",
+        "Coordinated backstage operations for cast of 30 during 12-show run",
+        "Performed as ensemble understudy while managing props logistics"
+      ]
+    },{
+      "company": "Girls E-Mentorship",
+      "position": "Scholarship Recipient & Program Participant",
+      "start_date": "07-24",
+      "end_date": "05-25",
+      "current_job": false,
+      "achievements": [
+        "Awarded $2,000 scholarship for STEM leadership potential in competitive mentorship program",
+        "Developed technical skills through Google-sponsored workshops and job shadowing",
+        "Presented capstone project to industry panel on AI applications in healthcare"
+      ]
+    },{
+      "company": "Bloor CI",
+      "position": "Welcoming Committee Member",
+      "start_date": "06-22",
+      "end_date": "",
+      "current_job": true,
+      "achievements": [
+        "Organized orientation events for 300+ incoming Grade 9 students annually",
+        "Developed icebreaker activities improving freshman integration by 40%",
+        "Managed classroom visit program across 15 subject departments"
+      ]
+    },{
+      "company": "Proton Learning Centre",
+      "position": "STEM Tutor",
+      "start_date": "06-22",
+      "end_date": "",
+      "current_job": true,
+      "achievements": [
+        "Tutored 20+ elementary/middle school students in math and science",
+        "Developed personalized learning plans improving student grades by 1.5 letter grades on average",
+        "Created interactive lesson materials for diverse learning styles"
+      ]
+    },{
+      "company": "Teenage Tutors",
+      "position": "Online STEM Instructor",
+      "start_date": "03-24",
+      "end_date": "",
+      "current_job": true,
+      "achievements": [
+        "Delivered virtual tutoring in math/physics/chemistry to students grades 3-12",
+        "Developed digital learning resources with 95% student satisfaction rate",
+        "Implemented progress tracking system for 30+ students"
+      ]
+    },{
+      "company": "Tropicana Food Bank",
+      "position": "Volunteer",
+      "start_date": "07-24",
+      "end_date": "08-24",
+      "current_job": false,
+      "achievements": [
+        "Managed inventory for community food bank serving 200+ families weekly",
+        "Streamlined client intake process reducing wait times by 25%",
+        "Distributed 500+ food packages to community members in need"
+      ]
+    },{
+      "company": "Kumon Math and Reading Centre",
+      "position": "Learning Assistant",
+      "start_date": "08-23",
+      "end_date": "02-24",
+      "current_job": false,
+      "achievements": [
+        "Supported 50+ K-6 students in math/reading skill development",
+        "Implemented progress tracking system reducing grading time by 30%",
+        "Developed focus techniques improving student engagement by 40%"
+      ]
+    },{
+      "company": "Bloor Astronomy Club",
+      "position": "Executive Member",
+      "start_date": "09-21",
+      "end_date": "06-23",
+      "current_job": false,
+      "achievements": [
+        "Organized astronomy workshops for 100+ students",
+        "Managed club finances raising $800 through bake sales",
+        "Produced monthly science magazine with 150+ circulation"
+      ]
+    },{
+      "company": "Elections Canada",
+      "position": "Campaign Volunteer",
+      "start_date": "07-21",
+      "end_date": "10-21",
+      "current_job": false,
+      "achievements": [
+        "Canvassed 500+ households during federal election campaign",
+        "Audited vote counting procedures ensuring election integrity",
+        "Compiled voter data improving campaign targeting accuracy"
+      ]
+    },{
+      "company": "MetaMinds Day Camp",
+      "position": "Volunteer Counselor",
+      "start_date": "06-23",
+      "end_date": "08-23",
+      "current_job": false,
+      "achievements": [
+        "Facilitated STEM learning activities for 30+ elementary students daily, adapting teaching methods for diverse learning styles and neurodiversity needs",
+        "Co-developed and implemented daily lesson plans focused on computational thinking and creative problem-solving, resulting in 95% participant engagement",
+        "Managed conflict resolution and behavioral support for campers, creating inclusive environment where 100% of participants completed final projects"
+      ]
+    }
+    
+  ],
+  "education": [
+    {
+      "institution": "University of Waterloo",
+      "degree": "Bachelor's Degree",
+      "major": "Computer Engineering",
+      "start_date": "09-25",
+      "end_date": "05-30"
+    },{
+      "institution": "Bloor Collegiate",
+      "degree": "OSSD",
+      "start_date": "09-21",
+      "end_date": "06-25",
+      "gpa": "4.0",
+      "honors": [
+        "Ontario Scholar",
+        "TOPS Graduate",
+        "French Certificate"
+      ]
+    }
+  ],
+  "skills": {
+    "technical": [
+      "",
+      ""
+    ],
+    "tools": [
+      "",
+      ""
+    ],
+    "soft": [
+      "",
+      ""
+    ]
+  },
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "technologies": [
+        "",
+        ""
+      ],
+      "link": "",
+      "date": ""
+    }
+  ],
+  "certifications": [
+    {
+      "name": "",
+      "issuer": "",
+      "date": "",
+      "credential_id": ""
+    }
+  ],
+  "languages": [
+    {
+      "name": "",
+      "proficiency": ""
+    }
+  ],
+  "achievements": [
+    {
+      "title": "",
+      "date": "",
+      "description": ""
+    }
+  ]
+}

@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <div class="top-nav">
+    <div class="top-nav">
 
     <!-- Hamburger menu (hidden on desktop) -->
     <div class="hamburger-menu" id="hamburgerMenu">
@@ -20,19 +20,18 @@
     <!-- Main navigation for big screens -->
     <div class="big-screen-nav">
       <div class="nav-links">
-        <a class="active-page" href="index.html">home</a>
-        <a href="about.html">experience</a>
+        <a href="index.html">home</a>
+        <a class="active-page" href="about.html">experience</a>
         <a href="projects.html">projects</a>
         <a href="resume.html">resume</a>
-        
       </div>
     </div>
     
     <!-- Navigation for small screens -->
     <div class="small-screen-nav" id="smallScreenNav">
       <div class="nav-links">
-        <a class="active-page" href="index.html">home</a>
-        <a href="about.html">experience</a>
+        <a href="index.html">home</a>
+        <a class="active-page" href="about.html">experience</a>
         <a href="projects.html">projects</a>
         <a href="resume.html">resume</a>
       </div>
@@ -67,24 +66,76 @@
   </div>
   
   
+  
+  
+  
+  
+
   <div class="typewriter-container">
     <header>
-      <h1 class="typewriter">hi, i'm aadhya!</h1>
+      <h1 class="typewriter">my experience!</h1>
     </header>
   </div>
-  
-  <div class="card" id="about">
-    <img src = "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg" alt="icon" width="500" height="auto" />
-    <p >Hey there! My name is Aadhya Anand and I'm an incoming first-year Computer Engineering student at the University of Waterloo! I'm interested in alot of things, mainly AI/ML, the sciences, big data, and astronomy!</p>
-    <p>When I'm not coding in front of my computer, you can catch me reading, listening to music, drawing original characters, or obsessing over movies and TV shows!</p>
+
+  <div class = "my-projects" id="experience-container">
+    <div class="loading">Loading resume data...</div>
   </div>
 
+  <script id="experience-template" type="text/x-handlebars-template">
+      
+    
+    {{#each experience}}
+      {{#if featured}}
+      <!-- we gotta make something that allows only certain jobs in -->
+        
+        <div class="project-card">
+          <div class="job-header">
+              <div>
+                <p class="company">{{company}}</p>
+                <p class="position">{{position}}</p>
+              </div>
+              <div class="date">{{start_date}} to {{end_date}}</div>
+          </div>
+
+          {{#if description}}<p>{{description}}</p>{{/if}}
+
+
+          {{#if technologies.length}}
+            <div class="technologies">
+              {{#each technologies}}
+                <span class="tech-item">{{this}}</span>
+              {{/each}}
+            </div>
+          {{/if}}
+        </div>
+
+      {{/if}}
+    {{/each}}
+
+  </script>
   
+<div class="social-links">
+    <p>we should connect! head to my links, or send me an email!</p>
+    <a href="https://www.linkedin.com/in/aadhya-anand/" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/AntimonySB2468" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="mailto:aadhya.anand@gmail.com" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
 
   <footer>
     designed & built by Aadhya Anand ( ´･･)ﾉ(._.`)
   </footer>
+
+  
   
   <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.8/dist/handlebars.min.js"></script>
+  <script src="load\load-experience.js"></script>
 </body>
 </html>

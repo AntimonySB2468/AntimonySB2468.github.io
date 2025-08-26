@@ -10,30 +10,29 @@
 </head>
 <body>
 
-  <div class="top-nav">
+    <div class="top-nav">
 
     <!-- Hamburger menu (hidden on desktop) -->
     <div class="hamburger-menu" id="hamburgerMenu">
       <i class="fas fa-bars"></i>
     </div>
     
-    <!-- Main navigation for big screens -->
+    <!-- Main navigation for big screens class="active-page" -->
     <div class="big-screen-nav">
       <div class="nav-links">
-        <a class="active-page" href="index.html">home</a>
+        <a href="index.html">home</a>
         <a href="about.html">experience</a>
-        <a href="projects.html">projects</a>
+        <a class="active-page" href="projects.html">projects</a>
         <a href="resume.html">resume</a>
-        
       </div>
     </div>
     
-    <!-- Navigation for small screens -->
+    <!-- Navigation for small screens class="active-page" -->
     <div class="small-screen-nav" id="smallScreenNav">
       <div class="nav-links">
-        <a class="active-page" href="index.html">home</a>
+        <a href="index.html">home</a>
         <a href="about.html">experience</a>
-        <a href="projects.html">projects</a>
+        <a class="active-page" href="projects.html">projects</a>
         <a href="resume.html">resume</a>
       </div>
     </div>
@@ -67,24 +66,55 @@
   </div>
   
   
+  
   <div class="typewriter-container">
     <header>
-      <h1 class="typewriter">hi, i'm aadhya!</h1>
+      <h1 class="typewriter">my projects!</h1>
     </header>
   </div>
-  
-  <div class="card" id="about">
-    <img src = "https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg" alt="icon" width="500" height="auto" />
-    <p >Hey there! My name is Aadhya Anand and I'm an incoming first-year Computer Engineering student at the University of Waterloo! I'm interested in alot of things, mainly AI/ML, the sciences, big data, and astronomy!</p>
-    <p>When I'm not coding in front of my computer, you can catch me reading, listening to music, drawing original characters, or obsessing over movies and TV shows!</p>
+
+  <div class = "my-projects" id="projects-container">
+    <div class="loading">Loading resume data...</div>
   </div>
 
+  <script id="projects-template" type="text/x-handlebars-template">
+      
+    
+      {{#each projects}}
+      <div class="project-card">
+        <h2>{{name}}</h2>
+        
+        {{#if description}}<p>{{description}}</p>{{/if}}
+
+        {{#if technologies.length}}
+          <div class="technologies">
+            {{#each technologies}}
+              <span class="tech-item">{{this}}</span>
+            {{/each}}
+          </div>
+        {{/if}}
+
+        <div class = "project-links">
+          {{#if code}}<a href = {{code}} target="_blank"> source code </a>{{/if}}
+          {{#if link}}<a href = {{link}} target="_blank"> live link </a>{{/if}}
+
+        </div>
+
+      </div>
+      
+      {{/each}}
+
+  </script>
   
+
 
   <footer>
     designed & built by Aadhya Anand ( ´･･)ﾉ(._.`)
   </footer>
   
   <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.8/dist/handlebars.min.js"></script>
+  <script src="load\load-projects.js"></script>
 </body>
 </html>

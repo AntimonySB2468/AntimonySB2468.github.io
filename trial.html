@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>aadhya anand</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* ========== Resume Sections ========== */
+    .resume-section {
+      margin-bottom: 2.5rem;
+      padding: 1.5rem;
+      background-color: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      text-align: left;
+    }
+
+    .resume-section h2 {
+      color: hsl(var(--hue), 93%, 59%);
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid hsla(var(--hue), 93%, 59%, 0.3);
+      text-align: center;
+    }
+
+    .experience-item, .education-item {
+      margin-bottom: 1.5rem;
+      padding-left: 1rem;
+      border-left: 3px solid hsla(var(--hue), 93%, 59%, 0.7);
+    }
+
+    .job-header, .education-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.8rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .company, .institution {
+      font-weight: bold;
+      color: hsl(var(--hue), 93%, 59%);
+      font-size: 1.1rem;
+    }
+
+    .position, .degree {
+      font-style: italic;
+      color: var(--text-color);
+      opacity: 0.9;
+    }
+
+    .date {
+      color: var(--footer-text);
+      font-size: 0.9rem;
+      background: rgba(0, 0, 0, 0.1);
+      padding: 0.3rem 0.6rem;
+      border-radius: 12px;
+    }
+
+    [data-theme="light"] .date {
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .achievements {
+      margin-top: 0.8rem;
+      padding-left: 1rem;
+    }
+
+    .achievements li {
+      margin-bottom: 0.5rem;
+      position: relative;
+      padding-left: 1.2rem;
+    }
+
+
+    .skills-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .skill-category {
+      background: rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    [data-theme="light"] .skill-category {
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .skill-category h3 {
+      color: hsl(var(--hue), 93%, 59%);
+      margin-bottom: 0.8rem;
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+
+    .skill-item {
+      background-color: hsla(var(--hue), 93%, 59%, 0.2);
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      transition: all var(--transition-duration) var(--transition-timing);
+    }
+
+    [data-theme="light"] .skill-item {
+      background-color: hsla(var(--hue), 93%, 59%, 0.1);
+    }
+
+    .skill-item:hover {
+      transform: translateY(-2px);
+      background-color: hsla(var(--hue), 93%, 59%, 0.3);
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .project-item {
+      background-color: hsla(var(--hue), 93%, 59%, 0.1);
+      padding: 1.2rem;
+      border-radius: 8px;
+      transition: all var(--transition-duration) var(--transition-timing);
+    }
+
+    [data-theme="light"] .project-item {
+      background-color: hsla(var(--hue), 93%, 59%, 0.05);
+    }
+
+    .project-item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .project-name {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: hsl(var(--hue), 93%, 59%);
+      font-size: 1.1rem;
+    }
+
+    .technologies {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.8rem;
+    }
+
+    .tech-item {
+      background-color: hsla(var(--hue), 93%, 59%, 0.2);
+      padding: 0.3rem 0.6rem;
+      border-radius: 15px;
+      font-size: 0.8rem;
+    }
+
+    [data-theme="light"] .tech-item {
+      background-color: hsla(var(--hue), 93%, 59%, 0.1);
+    }
+
+    .achievements-list, .certifications-list, .languages-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .achievements-list li, .certifications-list li {
+      margin-bottom: 0.8rem;
+      padding-left: 1rem;
+      border-left: 2px solid hsla(var(--hue), 93%, 59%, 0.5);
+    }
+
+    .language-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+      padding: 0.5rem;
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: 6px;
+    }
+
+    [data-theme="light"] .language-item {
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .language-name {
+      font-weight: bold;
+    }
+
+    .language-proficiency {
+      color: var(--footer-text);
+      font-style: italic;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 3rem;
+      color: var(--footer-text);
+      font-size: 1.1rem;
+    }
+
+    .error {
+      text-align: center;
+      padding: 3rem;
+      color: hsl(0, 70%, 60%);
+      font-size: 1.1rem;
+    }
+
+    /* ========== Responsive Design for Resume ========== */
+    @media (max-width: 768px) {
+      .resume-section {
+        padding: 1rem;
+      }
+      
+      .job-header, .education-header {
+        flex-direction: column;
+      }
+      
+      .skills-container {
+        grid-template-columns: 1fr;
+      }
+      
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .date {
+        align-self: flex-start;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .resume-section h2 {
+        font-size: 1.3rem;
+      }
+      
+      .company, .institution {
+        font-size: 1rem;
+      }
+      
+      .skill-list {
+        justify-content: flex-start;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+    <div class="top-nav">
+
+    <!-- Hamburger menu (hidden on desktop) -->
+    <div class="hamburger-menu" id="hamburgerMenu">
+      <i class="fas fa-bars"></i>
+    </div>
+    
+    <!-- Main navigation for big screens class="active-page" -->
+    <div class="big-screen-nav">
+      <div class="nav-links">
+        <a href="index.html">home</a>
+        <a href="about.html">about me</a>
+        <a href="projects.html">projects</a>
+        <a href="resume.html">resume</a>
+      </div>
+    </div>
+    
+    <!-- Navigation for small screens class="active-page" -->
+    <div class="small-screen-nav" id="smallScreenNav">
+      <div class="nav-links">
+        <a href="index.html">home</a>
+        <a href="about.html">about me</a>
+        <a href="projects.html">projects</a>
+        <a href="resume.html">resume</a>
+      </div>
+    </div>
+
+    <div class = "theme-controls">
+      <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </div>
+      
+      <div class="color-menu-container">
+        <div class="menu-toggle" id="menuToggle">
+          <i class="fas fa-palette"></i>
+        </div>
+        
+        <div class="color-menu" id="colorMenu">
+          <div class="menu-header">
+            <h3>change highlight colour</h3>
+            <button class="close-menu" id="closeMenu">&times;</button>
+          </div>
+          
+          <div class="menu-wheel-container">
+            <div class="color-wheel" id="colorWheel">
+              <div class="wheel-center"></div>
+              <div class="selector" id="selector"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+  </div>
+  
+  
+  
+  <div class="typewriter-container">
+    <header>
+      <h1 class="typewriter">enter heading here</h1>
+    </header>
+  </div>
+  
+  <!-- Resume sections will be loaded here -->
+  <div class="card">
+    <div id="resume-content">
+      <div class="loading">Loading resume data...</div>
+    </div>
+  </div>
+
+
+  <footer>
+    designed & built by Aadhya Anand ( ´･･)ﾉ(._.`)
+  </footer>
+
+  <!-- Handlebars Templates -->
+  <script id="experience-template" type="text/x-handlebars-template">
+    <div class="resume-section">
+      <h2>Experience</h2>
+      {{#each experience}}
+        <div class="experience-item">
+          <div class="job-header">
+            <div>
+              <span class="company">{{company}}</span> ⸺
+              <span class="position">{{position}}</span>
+            </div>
+            <div class="date">{{start_date}} to {{end_date}}</div>
+          </div>
+          {{#if achievements}}
+            <ul class="achievements">
+              {{#each achievements}}
+                <li>{{this}}</li>
+              {{/each}}
+            </ul>
+          {{/if}}
+        </div>
+      {{/each}}
+    </div>
+  </script>
+
+  <script id="education-template" type="text/x-handlebars-template">
+    <div class="resume-section">
+      <h2>Education</h2>
+      {{#each education}}
+        <div class="education-item">
+          <div class="education-header">
+            <div>
+              <span class="institution">{{institution}}</span> - 
+              <span class="degree">{{degree}}</span>
+            </div>
+            <div class="date">{{start_date}} to {{end_date}}</div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </script>
+
+  <script id="skills-template" type="text/x-handlebars-template">
+    <div class="resume-section">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        {{#if skills.technical.length}}
+          <div class="skill-category">
+            <h3>Technical</h3>
+            <div class="skill-list">
+              {{#each skills.technical}}
+                <span class="skill-item">{{this}}</span>
+              {{/each}}
+            </div>
+          </div>
+        {{/if}}
+        {{#if skills.soft.length}}
+          <div class="skill-category">
+            <h3>Soft Skills</h3>
+            <div class="skill-list">
+              {{#each skills.soft}}
+                <span class="skill-item">{{this}}</span>
+              {{/each}}
+            </div>
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </script>
+
+  <script id="projects-template" type="text/x-handlebars-template">
+    <div class="resume-section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        {{#each projects}}
+          <div class="project-item">
+            <div class="project-name">{{name}}</div>
+            {{#if description}}<p>{{description}}</p>{{/if}}
+            {{#if technologies.length}}
+              <div class="technologies">
+                {{#each technologies}}
+                  <span class="tech-item">{{this}}</span>
+                {{/each}}
+              </div>
+            {{/if}}
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </script>
+
+  <script id="certifications-template" type="text/x-handlebars-template">
+    <div class="resume-section">
+      <h2>Certifications</h2>
+      <ul class="certifications-list">
+        {{#each certifications}}
+          <li>
+            <strong>{{name}}</strong>{{#if date}} ({{date}}){{/if}}
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </script>
+
+  <script id="languages-template" type="text/x-handlebars-template">
+    <div class="resume-section">
+      <h2>Languages</h2>
+      <ul class="languages-list">
+        {{#each languages}}
+          <li class="language-item">
+            <span class="language-name">{{name}}</span>
+            <span class="language-proficiency">{{proficiency}}</span>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </script>
+
+  <script id="achievements-template" type="text/x-handlebars-template">
+    <div class="resume-section">
+      <h2>Achievements</h2>
+      <ul class="achievements-list">
+        {{#each achievements}}
+          <li>
+            <strong>{{title}}</strong>{{#if date}} ({{date}}){{/if}}
+            {{#if description}}<p>{{description}}</p>{{/if}}
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.8/dist/handlebars.min.js"></script>
+  <script src="load\load-resume.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+

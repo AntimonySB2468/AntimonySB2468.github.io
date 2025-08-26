@@ -40,7 +40,6 @@
   --wheel-center-bg: #222;
   --wheel-center-shadow: rgba(0, 0, 0, 0.5);
   --wheel-center-text: white;
-  --date-background: rgba(0, 0, 0, 0.1)
   
   --hue: 270;
   --primary: hsl(var(--hue), 100%, 50%);
@@ -83,7 +82,6 @@
   --wheel-center-bg: #f0f0f0;
   --wheel-center-shadow: rgba(0, 0, 0, 0.1);
   --wheel-center-text: #333;
-  --date-background: rgba(0, 0, 0, 0.05);
 }
 
 /* ========== Base Styles & Resets ========== */
@@ -120,7 +118,7 @@ body {
 a, .button, .social-links a, .nav-links a, 
 .menu-toggle, .theme-toggle, .hamburger-menu, .card,
 .color-wheel, .selector, .close-menu,
-.theme-toggle i, .menu-toggle i, .hamburger-menu i, .project-card {
+.theme-toggle i, .menu-toggle i, .hamburger-menu i {
   transition: 
     color var(--transition-duration) var(--transition-timing),
     background-color var(--transition-duration) var(--transition-timing),
@@ -133,14 +131,8 @@ a, .button, .social-links a, .nav-links a,
 /* ========== Typography ========== */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
-  margin-top: 0.5rem;
   font-weight: 700;
   color: var(--heading-color);
-}
-
-h1{
-  
-  padding-top: 2rem;
 }
 
 p {
@@ -196,6 +188,7 @@ a:hover {
 
 /* ========== Cards ========== */
 .card, .project-card {
+  max-width: 1200px;
   margin: 1.5rem auto;
   padding: 20px;
   background-color: var(--card-bg);
@@ -227,18 +220,6 @@ a:hover {
 .project-card {
   text-align: left;
   padding: 1.5rem;
-  /* Remove max-width and auto margin that break grid layout */
-  max-width: none;
-  margin: 0;
-  height: 100%; /* Ensure all cards have equal height */
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  white-space: normal;
-}
-
-.card{
-  max-width: 800px;
 }
 
 /* ========== Navigation ========== */
@@ -276,28 +257,21 @@ nav a {
 }
 
 .nav-links, .project-links, .resume-links {
+  display: flex;
   gap: 15px;
 }
-
-.nav-links, .project-links{
-  display: flex;
-  max-width: 500px;
-}
-  
 
 .nav-links a, .project-links a, .resume-links a {
   border-radius: 8px;
   font-weight: 700;
   padding: 8px 15px;
   border: 2px solid hsla(var(--hue), 93%, 59%, 1);
-  color: var(--text-color);
 }
 
 .nav-links a:hover, .project-links a:hover, .resume-links a:hover {
+  color: hsla(var(--hue), 93%, 59%, 1);
   border: 2px solid hsl(calc(var(--hue) + 30), 100%, 70%);
 }
-
-
 
 .nav-links .active-page {
   color: var(--text-color);
@@ -393,7 +367,7 @@ footer {
 
 .theme-toggle i {
   font-size: 28px;
-  color: var(--text-color);
+  color: var(--theme-toggle-icon);
 }
 
 /* ========== Color Picker ========== */
@@ -423,7 +397,7 @@ footer {
 
 .menu-toggle i {
   font-size: 28px;
-  color: var(--text-color);
+  color: hsl(var(--hue), 100%, 70%);
 }
 
 .color-menu {
@@ -617,31 +591,10 @@ footer {
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
-  margin-bottom: 3rem;
-  width: 100%;
 }
-
-.my-projects > * {
-  display: flex;
-}
-
-/* Update project links to stay at bottom of card */
-.project-links {
-  display: flex;
-  gap: 15px;
-  margin-top: auto; /* Push links to bottom of card */
-}
-
-
 
 /* ========== Responsive Design ========== */
 @media (max-width: 768px) {
-  .my-projects {
-    grid-template-columns: 1fr;
-  }
-  
-  
-
   nav {
     flex-direction: column;
     align-items: center;
@@ -695,10 +648,7 @@ footer {
     padding-top: 100px;
   }
 
-  .date {
-    align-self: flex-start;
-  }
-    
+  
 }
 
 @media (max-width: 480px) {
@@ -709,10 +659,6 @@ footer {
   .container {
     padding: 0.5rem;
   }
-
-  .job-header, .education-header {
-    flex-direction: column;
-  }
   
   .color-menu {
     width: 260px;
@@ -722,53 +668,4 @@ footer {
   .small-screen-nav {
     width: 220px;
   }
-
-  .resume-links {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    align-items: center;
-    margin: auto;
-  }
-}
-
-.technologies {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 0.8rem;
-}
-.tech-item {
-  background-color: hsla(var(--hue), 93%, 59%, 0.5);
-  padding: 0.3rem 0.6rem;
-  border-radius: 15px;
-  font-size: 0.8rem;
-}
-.job-header, .education-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 0.8rem;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-}
-
-.company, .institution {
-  font-weight: bold;
-  color: hsl(var(--hue), 93%, 59%);
-  font-size: 1.1rem;
-}
-
-.position, .degree {
-  font-style: italic;
-  color: var(--text-color);
-  opacity: 0.9;
-}
-
-.date {
-  color: var(--footer-text);
-  font-size: 0.9rem;
-  background: var(--date-background);
-  padding: 0.3rem 0.6rem;
-  border-radius: 12px;
 }

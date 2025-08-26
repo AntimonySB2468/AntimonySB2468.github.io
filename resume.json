@@ -1,0 +1,393 @@
+{
+  "personal_info": {
+    "name": "Aadhya Anand",
+    "email": "aadhya.anand@gmail.com",
+    "phone": "+1 (437) 235 4834",
+    "location": "115 Omni Drive Unit 902, Toronto, Canada",
+    "linkedin": "",
+    "github": "",
+    "portfolio": ""
+  },
+  "summary": "",
+  "experience": [
+    {
+      "company": "Proton Learning Centre",
+      "position": "Administrative Assistant",
+      "location": "",
+      "start_date": "06-22",
+      "end_date": "PRESENT",
+      "featured": true,
+      "achievements": [
+        "Use Microsoft Access, Microsoft Excel, and Salesforce to design databases, spreadsheets, and administration tools",
+        "Coordinate with the headmaster to design relevant databases to track students and the various aspects of their learning, such as their homework, attendance, and class performance",
+        "Coordinate and communicate with teachers to improve student's learning experience"
+      ]
+    },
+    {
+      "company": "University of Toronto",
+      "position": "Researcher",
+      "location": "",
+      "start_date": "01-25",
+      "end_date": "PRESENT",
+      "featured": true,
+      "achievements": [
+        "Currently writing a research paper on the distance between two points on any dimensional surface",
+        "Learning complex mathematical concepts such as topology, Riemannian and Lorentzian geometry, and special relativity",
+        "Collaborating with a Ph.D. student and another High School student"
+      ]
+    },
+    {
+      "company": "Great Lunar Expedition for Everyone (GLEE)",
+      "position": "Participant",
+      "location": "",
+      "start_date": "06-22",
+      "end_date": "PRESENT",
+      "featured": false,
+      "achievements": [
+        "Collaborate with fellow students to program small, affordable landers called \"LunaSats\" to the moon",
+        "Promote STEM education through outreach programs for GLEE",
+        "Learn about the various sensors and capabilities of the LunaSats",
+        "Design our own mission to collect data on the Moon and program the LunaSats in such a way as to get the data"
+      ]
+    },
+    {
+      "company": "Royal Tech Solutions",
+      "position": "Administrative Assistant",
+      "location": "",
+      "start_date": "03-20",
+      "end_date": "PRESENT",
+      "featured": true,
+      "achievements": [
+        "Develop and manage a Salesforce CRM for cable TV customers",
+        "Onboard new clients into Salesforce CRM",
+        "Software configuration of set-top boxes",
+        "Manage client subscriptions in various external systems"
+      ]
+    },
+    {
+      "company": "Youreka Toronto",
+      "position": "High School Investigator",
+      "location": "",
+      "start_date": "02-24",
+      "end_date": "05-24",
+      "featured": true,
+      "achievements": [
+        "Investigated the connections between environmental changes and human health under the guidance of University of Toronto undergraduate students",
+        "Used the scientific method to analyze research papers and conduct research",
+        "Used R to analyze datasets and draw scientific conclusions",
+        "Wrote research papers that were published in annual symposiums",
+        "Competed with other Youreka regional teams under the Toronto regional team"
+      ]
+    },
+    {
+      "company": "Bloor CI Mean Girls HSE Production",
+      "position": "Ensemble Member & Props Department Lead",
+      "location": "",
+      "start_date": "10-23",
+      "end_date": "04-24",
+      "featured": false,
+      "achievements": [
+        "Designed and kept track of props required during the musical production",
+        "Coordinated with directors and stage managers",
+        "Acted as an ensemble understudy",
+        "Multitasked singing, dancing, and acting during the performance"
+      ]
+    },
+    {
+      "company": "Girls E-Mentorship",
+      "position": "Mentee",
+      "location": "",
+      "start_date": "07-24",
+      "end_date": "05-25",
+      "featured": true,
+      "achievements": [
+        "Chosen from a competitive pool for GEM's 9‑month mentorship program, matching one‑on‑one with a professional mentor to develop leadership, academic, and career-readiness skills",
+        "Attended five GEMinars, including a Google enrichment workshop, where I engaged with industry professionals and built practical tech knowledge",
+        "Awarded a $2,000 GEM scholarship for exceptional initiative and financial need, helping fund post-secondary education",
+        "Participated in experiential learning opportunities—job-shadowing, networking events—broadening exposure to STEM and professional environments",
+        "Demonstrated measurable impact: 96% gained clarity on career skills, 95% increased understanding of career paths, and 93% boosted confidence in self-advocacy"
+      ]
+    },
+    {
+      "company": "Bloor CI Welcoming Committee",
+      "position": "Member",
+      "location": "",
+      "start_date": "06-22",
+      "end_date": "PRESENT",
+      "featured": false,
+      "achievements": [
+        "Brainstorm with like-minded students about ways to make incoming students feel welcome in high school.",
+        "Organize ice-breakers and classroom visits for grade 9 students over the school year."
+      ]
+    },
+    {
+      "company": "Proton Learning Centre",
+      "position": "Math, English and Science Tutor",
+      "location": "",
+      "start_date": "06-22",
+      "end_date": "PRESENT",
+      "featured": false,
+      "achievements": [
+        "Tutor elementary and middle school students in Math, Science, and English"
+      ]
+    },
+    {
+      "company": "Teenage Tutors",
+      "position": "Tutor",
+      "location": "",
+      "start_date": "03-24",
+      "end_date": "PRESENT",
+      "featured": false,
+      "achievements": [
+        "Tutor elementary, junior high, and high school students online from grades 3-12 in Math, Physics, and Chemistry"
+      ]
+    },
+    {
+      "company": "Tropicana Food Bank",
+      "position": "Volunteer",
+      "location": "",
+      "start_date": "07-24",
+      "end_date": "08-24",
+      "featured": false,
+      "achievements": [
+        "Stocked food into the foodbank under the guidance of my supervisor",
+        "Assisted customers by giving them food from the bank"
+      ]
+    },
+    {
+      "company": "Kumon Math and Reading Centre",
+      "position": "Centre Assistant",
+      "location": "",
+      "start_date": "08-23",
+      "end_date": "02-24",
+      "featured": false,
+      "achievements": [
+        "Assisted students in Primary Instruction (PI) and Early Learning (EL) with math and reading classwork",
+        "Marked the students' homework",
+        "Ensured students were focused in class"
+      ]
+    },
+    {
+      "company": "Bloor Astronomy Club",
+      "position": "Executive",
+      "location": "",
+      "start_date": "09-21",
+      "end_date": "06-23",
+      "featured": false,
+      "achievements": [
+        "Organized workshops that promoted interest in astronomy",
+        "Hosted bake sales and ran a monthly magazine"
+      ]
+    },
+    {
+      "company": "Do West Fest",
+      "position": "Student Volunteer",
+      "location": "",
+      "start_date": "06-23",
+      "end_date": "06-23",
+      "featured": false,
+      "achievements": [
+        "Managed kids' activities such as bouncy castles and inflatable slides",
+        "Worked at the info booth to give festival go-ers information about the festival",
+        "Sold festival merchandise, such as t-shirts and tote bags",
+        "Helped set up and put away the festival"
+      ]
+    },
+    {
+      "company": "Toronto Dragon Boat Race Festival",
+      "position": "Student Volunteer",
+      "location": "",
+      "start_date": "06-23",
+      "end_date": "06-23",
+      "featured": false,
+      "achievements": [
+        "Managed the kids' zone",
+        "Worked at the food booth, gave snacks to volunteers and people with food coupons",
+        "Helped set up and put away the festival"
+      ]
+    },
+    {
+      "company": "Elections Canada",
+      "position": "Student Volunteer",
+      "location": "",
+      "start_date": "07-21",
+      "end_date": "10-21",
+      "featured": false,
+      "achievements": [
+        "Door-to-door campaigning for the 2021 federal election",
+        "Scrutinized poll counting after elections",
+        "Compiled office/election data to help other campaign associates"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Bloor Collegiate Institute",
+      "degree": "Talented Offerings for Programs in the Sciences (TOPS) Diploma",
+      "major": "",
+      "location": "",
+      "start_date": "09-21",
+      "end_date": "PRESENT",
+      "gpa": "",
+      "honors": []
+    },
+    {
+      "institution": "Annamalai University",
+      "degree": "Grade Level Exam 2 (in Vocal Music)",
+      "major": "",
+      "location": "",
+      "start_date": "09-18",
+      "end_date": "PRESENT",
+      "gpa": "",
+      "honors": []
+    },
+    {
+      "institution": "WhiteHat Jr",
+      "degree": "Game Developer",
+      "major": "",
+      "location": "",
+      "start_date": "01-20",
+      "end_date": "12-20",
+      "gpa": "",
+      "honors": []
+    },
+    {
+      "institution": "Pneuma Ensemble Program in Medieval Performing Arts",
+      "degree": "Professional Medieval Actor (Level 1)",
+      "major": "",
+      "location": "",
+      "start_date": "01-16",
+      "end_date": "12-16",
+      "gpa": "",
+      "honors": []
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "R",
+      "SQL",
+      "PHP",
+      "Mathematics"
+    ],
+    "tools": [],
+    "soft": [
+      "Logical Reasoning",
+      "Child Minding",
+      "Time Management",
+      "Communication Skills",
+      "Public Speaking",
+      "Debate Skills",
+      "Scientific Knowledge",
+      "Memory Retainment",
+      "Fast Learning",
+      "Decision-Making Skills",
+      "Problem-Solving",
+      "Critical Thinking",
+      "Adaptability",
+      "Interpersonal Skills",
+      "Graphic Design"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Pulsar Classification using Machine Learning",
+      "description": "",
+      "technologies": ["Python"],
+      "link": "",
+      "code": "",
+      "date": ""
+    },
+    {
+      "name": "Ninja Blocks",
+      "description": "",
+      "technologies": ["Javascript", "Matter.js"],
+      "link": "https://aanand.uwce.ca/Ninja-Blocks2.0/",
+      "code": "https://github.com/astr-droid/Ninja-Blocks2.0",
+      "date": ""
+    },
+    {
+      "name": "Movie rating database",
+      "description": "",
+      "technologies": ["Java"],
+      "link": "",
+      "code": "",
+      "date": ""
+    },
+    {
+      "name": "Student database for Proton Learning Centre",
+      "description": "",
+      "technologies": ["SQL", "PHP"],
+      "link": "",
+      "code": "",
+      "date": ""
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Standard First-Aid and CPR-C certified",
+      "issuer": "",
+      "date": "2024",
+      "credential_id": ""
+    },
+    {
+      "name": "Python certification Harvard (CS50p)",
+      "issuer": "",
+      "date": "2024",
+      "credential_id": ""
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Fluent"
+    },
+    {
+      "name": "French",
+      "proficiency": "working proficiency"
+    },
+    {
+      "name": "Malayalam",
+      "proficiency": "working proficiency"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "NASA Scientist For A Day First Place Winner",
+      "date": "2019-2020",
+      "description": ""
+    },
+    {
+      "title": "Grade 8 Academic Excellence Award",
+      "date": "2020-2021",
+      "description": ""
+    },
+    {
+      "title": "Grade 7 MODEL 3 Award",
+      "date": "2019-2020",
+      "description": ""
+    },
+    {
+      "title": "Toronto Science Fair First Place Winner",
+      "date": "2019-2020",
+      "description": ""
+    },
+    {
+      "title": "Honour Roll",
+      "date": "2021-2024",
+      "description": ""
+    },
+    {
+      "title": "TOPS Gr. 9 Science Subject Proficiency Award",
+      "date": "2021-2022",
+      "description": ""
+    },
+    {
+      "title": "Schulich Leader Scholarship Nominee",
+      "date": "2025",
+      "description": ""
+    }
+  ]
+}
